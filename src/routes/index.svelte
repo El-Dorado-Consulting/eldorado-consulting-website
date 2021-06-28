@@ -1,12 +1,12 @@
 <script>
   import { Parallax, ParallaxLayer } from 'svelte-parallax';
-	import Header from '../home/Header.svelte'
-	import Banner from '../home/Banner.svelte'
-	import About from '../home/About.svelte'
-	import Services from '../home/Services.svelte'
-	import Blog from '../home/Blog.svelte'
-	import Teams from '../home/Teams.svelte'
-	import Contact from '../home/Contact.svelte'
+	import Header from '../components/Header.svelte'
+	import Banner from '../components/Banner.svelte'
+	import About from '../components/About.svelte'
+	import Services from '../components/Services.svelte'
+	import Blog from '../components/Blog.svelte'
+	import Teams from '../components/Teams.svelte'
+	import Contact from '../components/Contact.svelte'
 	let parallax
 </script>
 <Header/>

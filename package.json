@@ -14,11 +14,20 @@
 		"postcss-load-config": "^3.1.0",
 		"svelte": "^3.34.0",
 		"svelte-preprocess": "^4.7.3",
-		"tailwindcss": "^2.2.4"
-	},
-	"type": "module",
-	"dependencies": {
+		"tailwindcss": "^2.2.4",
+		"dayjs": "^1.10.4",
+    "js-yaml": "^3.14.1",
+    "rehype-highlight": "^4.1.0",
+    "rehype-stringify": "^8.0.0",
+    "remark-frontmatter": "^3.0.0",
+    "remark-gfm": "^1.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.0.0",
+    "sass": "^1.0.0",
+    "to-vfile": "^6.1.0",
+    "unified": "^9.2.1",
 		"svelte-parallax": "^0.2.7",
 		"svelte-scrollto": "^0.2.0"
-	}
+	},
+	"type": "module"
 }

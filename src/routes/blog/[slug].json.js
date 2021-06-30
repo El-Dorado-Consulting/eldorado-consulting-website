@@ -1,4 +1,4 @@
-import { process } from './blog/markdownown';
+import { process } from './markdown.js';
 
 export function get({ params }) {
   const { slug } = params;

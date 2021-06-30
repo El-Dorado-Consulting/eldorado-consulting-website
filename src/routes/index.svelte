@@ -1,4 +1,5 @@
 <script>
+	import "../app.postcss"
   import { Parallax, ParallaxLayer } from 'svelte-parallax';
 	import Header from '../components/Header.svelte'
 	import Banner from '../components/Banner.svelte'

@@ -17,14 +17,14 @@
   <div class="flex-1 flex flex-col justify-center items-center">
     <div class="flex-1 max-w-md bg-white shadow-lg  rounded-lg">
       <img class="mb-2" src={currentBlog.url} alt="" />
-      <div class="bg-white text-black mb-4 p-2">
+      <div class="bg-white text-black mb-4 p-4">
         <h2 class="text-2xl mb-2 font-rale">{currentBlog.title}</h2>
         <h3 class="text-xl mb-4 font-quick">{currentBlog.subtitle}</h3>
-        <p class="text-sm">{currentBlog.date}</p>
+        <p class="text-sm mb-2">{currentBlog.date}</p>
         <div class="">
           <p class="font-dm">
             {currentBlog.blurb}
-            <span>...<a class="text-mint" href="@">Continue Reading</a></span>
+            <span>...<a class="text-mint" href="@">continue reading</a></span>
           </p>
         </div>
       </div>

@@ -2,7 +2,7 @@
 title: "Unsung Heroes"
 subtitle: "Taming the Change Management Leviathan"
 date: 2021-04-04
-excerpt: "Fun fact: Github Pages is free!"
+blurb: "Before starting this essay, I wanted to see what else had been written on change management. I was soon filled with a vague sense of dread, however, as I realized just how much material"
 ---
 ## Unsung Heroes 
 

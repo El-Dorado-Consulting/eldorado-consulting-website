@@ -2,6 +2,7 @@
 title: "Trash Pandas"
 subtitle: "What racoons can teach us about data collection"
 date: 2021-05-07
+blurb: "Data streams can be broken down into two types: manual and automated. And unless you’re Amazon, your operation will still rely on manual data inputs—from field reports and repair logs"
 ---
 
 Data streams can be broken down into two types: manual and automated. And unless you’re Amazon, your operation will still rely on manual data inputs—from field reports and repair logs to inventory counts and rework trackers. You’ll need to find a reliable data collection process that works for you and your technicians. 

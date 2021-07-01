@@ -22,9 +22,17 @@ const config = {
 			},
 			gray: colors.coolGray
 		},
-		extend: {},
+		extend: {
+			fontFamily: {
+				'rale': 'Raleway',
+				'quick': 'Quicksand',
+				'dm': 'DM Sans'
+			}
+		},
 	},
-	plugins: [],
+	plugins: [
+		require('@tailwindcss/typography')
+	],
 };
 
 module.exports = config;

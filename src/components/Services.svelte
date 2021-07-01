@@ -45,8 +45,8 @@
   </div>
   <div class="flex-1 flex justify-center items-center mx-2">
     <div class="text-center">
-      <h2 class="text-3xl mb-4">Our Services</h2>
-      <h3>WE OFFER DEDICATED MODULES ON KEY OPERATIONAL TOPICS</h3>
+      <h2 class="text-3xl mb-4 font-rale">Our Services</h2>
+      <h3 class = "font-quick mb-8 ">WE OFFER DEDICATED MODULES ON KEY OPERATIONAL TOPICS</h3>
     </div>
   </div>
 </div>

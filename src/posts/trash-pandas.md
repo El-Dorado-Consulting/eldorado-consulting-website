@@ -1,23 +1,12 @@
 ---
-title: "Trash Pands"
+title: "Trash Pandas"
+subtitle: "What racoons can teach us about data collection"
 date: 2021-05-07
-excerpt: "Fun fact: Github Pages is free!"
 ---
-
-## Trash Pandas 
-
-
-### What racoons can teach us about data collection
 
 Data streams can be broken down into two types: manual and automated. And unless you’re Amazon, your operation will still rely on manual data inputs—from field reports and repair logs to inventory counts and rework trackers. You’ll need to find a reliable data collection process that works for you and your technicians. 
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
+![Data Science Process](https://lh5.googleusercontent.com/_UD_2aCWJi2UWAuIf777wfny1qQ_5VpbXk8EmXFqKx1o8XWuwlSK0SLFDmDjOJjINlwGkg6DGES2QyrPpE2xI2zrobh6O4ZRFz0Mj1dV3aMnVKHz3II7xU38z4ReHRM1M90DSckm)
 
 _In operations the bottleneck is often in the raw data collection_
 
@@ -29,11 +18,7 @@ If this sounds discouraging, then look no further than our friend the racoon.
 ### RACCOONS BEHAVIOR
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![Racoon Chilling](https://lh5.googleusercontent.com/bb1eVpg5dzZXjkQQuwhaQAewJIKCTFVioOcYLQBPezbuCWgDaGGZRmNl_-rIJbptSB4xTlSEPqmnTplNGrHYRqwZOYWkCBNiXQ0eqbP5UvhYFOj-R66SEiWz-4QIHPcbs9IFZgq1)
 
 
 Racoons are frustratingly clever creatures. They have reasoning skills comparable to some monkeys. Their sensitive, dexterous hands can unclip latches, open lids and unscrew caps. They are rarely intimidated by humans and have made themselves part of many urban neighborhoods. Their nightly misadventures make for Instragram legends. But most importantly—these swamp mammals have learned to thrive among humans, with [up to 150 living in every square kilometer of city](https://en.wikipedia.org/wiki/Raccoon).
@@ -44,10 +29,7 @@ If Charlie was to waltz into my neighbor's apartment, perch expectantly at the d
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.jpg "image_tooltip")
+![Scary Racoon](https://lh4.googleusercontent.com/ebsziFz-MGkt8cNdiBqdnpLIeXWnn_n_Vc7alymx6xr2u2b75GVH3qz9FqiRpgM88vkZ6ZutmfZzI4ELN1gxu8i65BSmUjIMg9aPPk3YXiNIyGmy6zkGXTWBg4-MLDBhYc0UJgA0)
 
 
 _Is that you, Charlie?_
@@ -73,7 +55,7 @@ So data friends, before you start to write your 792nd SQL query, take a moment t
 <p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image4.png "image_tooltip")
+![Trash Panda](https://lh5.googleusercontent.com/L4NtnFhiXd5Yr76iwR_aTgKtDe-3rUNr7umZCNAcB1xhgxnai_RGfCYiasB14p30FCjP7_l6vfU9DXlPhiIJMyDbJVXBTJrdeXSM-ZT2aAALO7cWcSng2YVJQ0iCifAvchzCbZO6)
 
 
 

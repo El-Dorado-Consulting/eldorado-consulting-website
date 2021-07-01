@@ -1,24 +1,15 @@
 ---
 title: "Tying Shoes"
+subtitle: "Why training technicians should not be terrible"
 date: 2021-06-17
-excerpt: "Fun fact: Github Pages is free!"
 ---
-
-## Tying Shoes
-
-
-### Why training technicians should not be terrible
 
 When I started writing this, I did not expect that tying shoes would so nicely summarize the many challenges facing training technicians. It was amusing to learn that—even as many of us manage training programs—we can’t even tie our shoes correctly. Micromoblity operations have only had half a decade to mature whereas we have been tying knots all our lives. 
 
 In this article, I will review some of the common challenges I have encountered with technical training, including challenges with documentation, effectiveness, standardization and accountability. And finally I will share some of the methods that have allowed us to overcome the majority of these challenges.
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![Lacing Steps](https://lh6.googleusercontent.com/bODOM6AbzK7Sn8LQywjZUdd1PCz-xxkZlkY8oWiSkP8yvyHUDm63Y21ZE7doaGGbFjJLrx0yhC7a9Ar7ucsN0oHycvR7O9SLxR6DGGX_I3AHbV5wSq2FHdso3uj3tivGPNY3gENH)
 
 
 Eight steps for tying shoelaces properly
@@ -63,11 +54,7 @@ Now that you are better able to sympathize with the technician, let's turn the t
 If we ignore lace material, a properly tied shoelace does not need to be double-knotted to stay tied. The error most people make is in the direction they loop the bow after the first knot. To get a strong knot, the pattern is over-under followed by under-over. The ensuing knot will have the loops nicely perpendicular to your shoes. Parallel loops mean you are much more likely to have your shoes come off. 
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![Lace Direction](https://lh3.googleusercontent.com/hy9bMUJhLslVlSxVO9pmc07hhpFQWSxme8BUetj4kpgoXkXGs8L3z0iNsDsimiUtdqS37wIJnuz2oRgB5rFB2V25T_6v89tfrjdgGPuYT9E1nwNrJs2oPIi2mB6F45j6FHhx6NCF)
 
 
 If you’ve been tying your shoes wrong your whole life, this is great news. Let consider the impact: 
@@ -88,7 +75,7 @@ Given our starting conditions, let's consider some DOs and DON’Ts:
 
 | DON’T                                                        | DO                                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Create compound or complex instructions<br />Rely on online or remote instructions<br />Ignore feedback and rely on compliance | Break down tasks that can be captured in a few steps<br />Set up in-person instructions with trackable proficiency<br />Gather feedback and roll in process improvement rapidly |
+| - Create compound or complex instructions <br /> - Rely on online or remote instructions <br /> - Ignore feedback and rely on compliance | Break down tasks that can be captured in a few steps <br /> - Set up in-person instructions with trackable proficiency <br /> - Gather feedback and roll in process improvement rapidly |
 
 ### Developing a mature and effective knowledge management system
 
@@ -100,4 +87,4 @@ More formal documentation takes the form of Work Instructions—think diagrams, 
 
 Most importantly—training needs to happen in person. This is the only way to truly spur adoption of new processes, overcome bad habits and validate proficiency. Remember: technicians don’t have time to go searching for a document—especially when they can rely on experience to guide them though. You must meet the technician where they are, and be the experienced human that guides them successfully through the process. 
 
-To learn more and get access to our templates, ask us about booking our three-day training module for your team: **Developing Your Staff - Methods for Agile Training and Knowledge Management. **Or just practice teaching someone how to tie their laces.
+To learn more and get access to our templates, ask us about booking our three-day training module for your team: **Developing Your Staff - Methods for Agile Training and Knowledge Management.** Or just practice teaching someone how to tie their laces.

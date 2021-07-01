@@ -1,6 +1,6 @@
 <div class="flex flex-col sm:flex-row w-full">
   <div class="flex-1 flex justify-center items-center mx-2">
-    <h1 class="text-3xl">Contact Us</h1>
+    <h1 class="text-3xl mb-8 font-rale">Contact Us</h1>
   </div>
   <div class="flex-1 flex justify-center items-center mx-2">
     <form class="flex flex-col w-full">

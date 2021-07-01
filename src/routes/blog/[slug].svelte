@@ -20,8 +20,14 @@
   <title>{post.metadata.title}</title>
 </svelte:head>
 
-<h1 class="title">{post.metadata.title}</h1>
-{@html post.content}
+<h1 class="text-3xl mb-4">{post.metadata.title}</h1>
+<h2 class="text-xl mb-4">{post.metadata.subtitle}</h2>
+<h2 class="text-sm mb-4">{post.metadata.date}</h2>
+
+
+<div class="prose">
+  {@html post.content}
+</div>
 
 <style >
 </style>

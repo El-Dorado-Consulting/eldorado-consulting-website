@@ -1,9 +1,11 @@
 <script>
   import "../../app.postcss";
+  import Header from './Header.svelte'
 </script>
 
-<div class="flex items-center justify-center h-screen">
-  <div class="max-w-screen-md m-">
+<div class="flex items-center justify-center">
+  <Header/>
+  <div class="max-w-screen-md mt-32 p-2">
     <slot/>
   </div>
 </div>

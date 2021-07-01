@@ -6,11 +6,11 @@
       <img class= "max-h-16 block sm:hidden" src="logo-v2-small.png" alt="logo" />
     </div>
 
-    <nav class ="flex items-center ">
-      <a href="@" class="text-white mx-1">About</a>
-      <a href="@" class="text-white mx-1">Services</a>
-      <a href="@" class="text-white mx-1">Blog</a>
-      <a href="@" class="text-white mx-1">Contact</a>
+    <nav class ="flex items-center font-quick font-bold ">
+      <a href="@" class="text-white mx-1 sm:mx-2">About</a>
+      <a href="@" class="text-white mx-1 sm:mx-2">Services</a>
+      <a href="@" class="text-white mx-1 sm:mx-2">Blog</a>
+      <a href="@" class="text-white mx-1 sm:mx-2">Contact</a>
     </nav>
   </header>
 

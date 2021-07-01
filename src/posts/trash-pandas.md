@@ -52,15 +52,9 @@ Are you expecting clean data straight from the source? Too bad! Learn to pick th
 So data friends, before you start to write your 792nd SQL query, take a moment to reflect how you are collecting the data. Pretend you’re the trash panda. Be pragmatic. Be clever. Don’t ask for too much, and you will find that what you receive will be bountiful without any trace of poison.
 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![Trash Panda](https://lh5.googleusercontent.com/L4NtnFhiXd5Yr76iwR_aTgKtDe-3rUNr7umZCNAcB1xhgxnai_RGfCYiasB14p30FCjP7_l6vfU9DXlPhiIJMyDbJVXBTJrdeXSM-ZT2aAALO7cWcSng2YVJQ0iCifAvchzCbZO6)
 
-
-
 ### KEY PRINCIPLES
-
 
 *   Go to the source - don’t expect the data to come to you
 *   Make do with less - or risk harming the quality of your data

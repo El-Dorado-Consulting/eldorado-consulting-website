@@ -1,3 +1,19 @@
+<script context="module">
+  import { base } from '$app/paths';
+  export async function load({ fetch }) {
+    const posts = await fetch(`${base}/index.json`)
+        .then((r) => r.json());
+    return {
+      props: { posts }
+    }
+  }
+
+</script>
+
+
+
+
+
 <script>
 	import "../app.postcss"
   import { Parallax, ParallaxLayer } from 'svelte-parallax';
@@ -9,6 +25,8 @@
 	import Teams from '../components/Teams.svelte'
 	import Contact from '../components/Contact.svelte'
 	let parallax
+	export let posts
+	console.log('POSTS', posts)
 </script>
 <Header/>
 <Parallax bind:this={parallax} sections={6} config={{stiffness: 1, damping: 1}}>

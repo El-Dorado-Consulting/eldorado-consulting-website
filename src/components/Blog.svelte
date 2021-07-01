@@ -2,12 +2,17 @@
   export let blogs;
   let image
   console.log("Blogs", blogs);
+ 
+  let i = 0
+  $: currentBlog = blogs[i];
+  $: currentURL = `./blog/${currentBlog.slug}`
 
-  let currentBlog = blogs[0];
-
-  function nextBlog() {}
-
-  function previousBlog() {}
+  function nextBlog() {
+    i ++
+  }
+  function previousBlog() {
+    i --
+  }
 </script>
 
 <div class="flex flex-col w-full sm:flex-row ">
@@ -27,13 +32,13 @@
         <div class="">
           <p class="font-dm">
             {currentBlog.metadata.blurb}
-            <span>...<a class="text-mint" href="@">continue reading</a></span>
+            <span>...<a class="text-mint" href={currentURL}>continue reading</a></span>
           </p>
         </div>
       </div>
       <div class=" flex-1 flex justify-between mt-16">
-        <button class="p-2"><span>←</span>{blogs[1].metadata.title}</button>
-        <button class="p-2">{blogs[0].metadata.title}<span>→</span></button>
+        <button on:click={previousBlog} class="p-2"><span>←</span>{blogs[1].metadata.title}</button>
+        <button on:click={nextBlog} class="p-2">{blogs[0].metadata.title}<span>→</span></button>
       </div>
     </div>
   </div>

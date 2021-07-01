@@ -5,7 +5,7 @@
 
 <div class="flex items-center justify-center">
   <Header/>
-  <div class="max-w-screen-md mt-32 p-2">
+  <div class="mt-32 p-2">
     <slot/>
   </div>
 </div>

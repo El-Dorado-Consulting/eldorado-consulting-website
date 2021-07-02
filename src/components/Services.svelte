@@ -9,7 +9,7 @@ let services = [
     "imgURL": "agile-training.png"
   },
   {
-    "title": "Lean Repair Workflow Design",
+    "title": "Lean Repair Workflow & Process Engineering",
     "summary":
       "Repair ops hit a plateau? Looking for a better path forward? In this course, we share a fresh approach to micromobility operations that will help you break out of old habits, simplify your day-to-day and elevate your performance.",
     "imgURL": "lean-repair.png"
@@ -36,28 +36,33 @@ $: currentURL = `./slider/${currentSlide.imgURL}`
 </script>
 
 <div class=" w-screen flex flex-col-reverse sm:flex-row">
-  <div class="flex-1 flex flex-col justify-center items-center mx-2">
-    <div class=" text-white max-w-md shadow-xl">
-      <img src={currentURL} alt="thumbs-up" />
-      <div class="bg-mint p-4">
+  <div class="flex-1 flex flex-col justify-center items-center max-w-lg">
+    <div class=" flex flex-col  text-white max-w-md sm:shadow-md rounded">
+      <img class="mx-24"src={currentURL} alt="thumbs-up" />
+      <div class="bg-mint p-4 rounded-b ">
         <h3 class="text-2xl mb-4 font-quick">{currentSlide.title}</h3>
         <p class="text-md font-dm">{currentSlide.summary}</p>
       </div>
     </div>
-    <div>
-      <input bind:group={slide} type="radio" id="one" name="contact" value=0 />
-      <input bind:group={slide} type="radio" id="two" name="contact" value=1 />
-      <input bind:group={slide} type="radio" id="three" name="contact" value=2 />
-      <input bind:group={slide} type="radio" id="four" name="contact" value=3 />
+    <div class="mt-2">
+      <input class="mx-2 form-radio text-mint" bind:group={slide} type="radio" id="one" name="contact" value=0 />
+      <input class="mx-2 form-radio text-mint" bind:group={slide} type="radio" id="two" name="contact" value=1 />
+      <input class="mx-2 form-radio text-mint" bind:group={slide} type="radio" id="three" name="contact" value=2 />
+      <input class="mx-2 form-radio text-mint" bind:group={slide} type="radio" id="four" name="contact" value=3 />
     </div>
   </div>
-  <div class="flex-1 flex justify-center items-center mx-2">
+  <div class="flex-1 flex justify-center items-center mx-4">
     <div class="max-w-xl flex flex-col items-center">
-      <h2 class="text-3xl mb-4 font-rale">Our Services</h2>
+      <h2 class="text-3xl mb-16 sm:mb-4 font-rale">Our Services</h2>
       <h3 class = "text-xl font-quick mb-8">We offer dedicated modules on key operational topics</h3>
     </div>
   </div>
 </div>
 
 <style>
+
+  .marginBotton {
+    margin-bottom: 1.2rem
+    
+  }
 </style>

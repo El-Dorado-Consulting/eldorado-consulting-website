@@ -50,8 +50,7 @@ How different are operations from market to market? Is San Francisco really that
 
 Each perspective holds some truth—the art is getting both parties to recognize it. I really love the anecdote from Ben Horowitz about how he dealt with two teams that could not see eye-to-eye. His solution is radical and on the nose:
 
-
-    “The very next day I informed the head of Sales Engineering and the head of Customer Support that they would be switching jobs. I explained that, like Jodie Foster and Barbara Harris, they would keep their minds, but get new bodies. Permanently. Their initial reactions were not unlike the remake where Lindsay Lohan and Jamie Lee Curtis both scream in horror.”
+`“The very next day I informed the head of Sales Engineering and the head of Customer Support that they would be switching jobs. I explained that, like Jodie Foster and Barbara Harris, they would keep their minds, but get new bodies. Permanently. Their initial reactions were not unlike the remake where Lindsay Lohan and Jamie Lee Curtis both scream in horror.”`
 
 These two teams quickly found the core to their disagreements and worked well together from that moment on. The technique may seem excessive but it speaks to the need to actually do someone else's work to really sit in their shoes. 
 
@@ -62,13 +61,13 @@ Our team **always did** all the work before telling people how to do their job. 
 
 Most changes will be met with something between skepticism and active criticism. Therefore, don't count on gratitude. Instead, prepare yourself for discomfort. How you deal with pushback will dictate the success of the project. Here is an example what not to do:
 
-_Colleague one:	_
+Colleague one:
 
-"The [redacted] operations said they don't want to adopt the new standard inspection process"
+​	"The [redacted] operations said they don't want to adopt the new standard inspection process"
 
-_ Colleague two:_
+Colleague two:
 
- "Don't worry. We just need to make it clear they have no choice in the matter"
+​	"Don't worry. We just need to make it clear they have no choice in the matter"
 
 I get angry just recalling this kind of statement. Machiavellian tactics have no place in any 21st century company. **Pulling the "power card" means you have failed**. It's an easy card to pull when you have a timeline and deliverables and you are being met with resistance. Don't pull it. Remove it from your deck, rip it up and enjoy the pleasant colors when you light it on fire. 
 

@@ -60,23 +60,23 @@ If we ignore lace material, a properly tied shoelace does not need to be double-
 
 If you’ve been tying your shoes wrong your whole life, this is great news. Let consider the impact: 
 
-
-
 *   Reduced time required to tie shoe
 *   Fewer instances of shoe coming untied
 *   Greatly reduced time required to untie shoe
 *   More aesthetically pleasing knot
 
-Technicians, despite past experience, can be wrong. Their methods may not be the most efficient. But handing them an SOP won’t help. Ask yourself - _how would you like to be trained on lacing your shoes? _
+Technicians, despite past experience, can be wrong. Their methods may not be the most efficient. But handing them an SOP won’t help. Ask yourself *how would you like to be trained on lacing your shoes*? 
 
 
 ### Putting it into Practice
 
 Given our starting conditions, let's consider some DOs and DON’Ts:
 
-| DON’T                                                        | DO                                                           |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| - Create compound or complex instructions <br /> - Rely on online or remote instructions <br /> - Ignore feedback and rely on compliance | Break down tasks that can be captured in a few steps <br /> - Set up in-person instructions with trackable proficiency <br /> - Gather feedback and roll in process improvement rapidly |
+| DON’T                                   | DO                                                       |
+| --------------------------------------- | -------------------------------------------------------- |
+| Create compound or complex instructions | Break down tasks that can be captured in a few steps     |
+| Rely on online or remote instructions   | Set up in-person instructions with trackable proficiency |
+| Ignore feedback and rely on compliance  | Gather feedback and roll in process improvement rapidly  |
 
 ### Developing a mature and effective knowledge management system
 
@@ -88,4 +88,4 @@ More formal documentation takes the form of Work Instructions—think diagrams, 
 
 Most importantly—training needs to happen in person. This is the only way to truly spur adoption of new processes, overcome bad habits and validate proficiency. Remember: technicians don’t have time to go searching for a document—especially when they can rely on experience to guide them though. You must meet the technician where they are, and be the experienced human that guides them successfully through the process. 
 
-To learn more and get access to our templates, ask us about booking our three-day training module for your team: **Developing Your Staff - Methods for Agile Training and Knowledge Management.** Or just practice teaching someone how to tie their laces.
+To learn more and get access to our templates, ask us about booking our three-day training module for your team: **Developing Your Staff - Methods for Agile Training and Knowledge Management**. Or just practice teaching someone how to tie their laces.

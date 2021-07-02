@@ -32,8 +32,9 @@
 	
 </script>
 
-<Header on:message={scrollHandler} />
 
+<Header on:message={scrollHandler} />
+<div class="mx-auto">
 <Parallax
 	bind:this={parallax}
 	sections={6}
@@ -61,7 +62,7 @@
 		<section class="section bg2-lg" />
 	</ParallaxLayer>
 	<ParallaxLayer rate={0} span={1} offset={3}>
-		<section class="section">
+		<section class="section bg-gray-100">
 			<Blog blogs={posts} />
 		</section>
 	</ParallaxLayer>
@@ -76,6 +77,7 @@
 		</section>
 	</ParallaxLayer>
 </Parallax>
+</div>
 
 <style>
 	.section {
@@ -91,9 +93,11 @@
 	}
 	.bg1-lg {
 		background-image: url("./bg1-lg.png");
+		opacity: 60%;
 	}
 
-	.bg2-lg {
+	.bg2-lg-a {
 		background-image: url("./bg2-lg.png");
+		opacity: 50%;
 	}
 </style>

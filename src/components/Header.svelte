@@ -9,7 +9,7 @@
   }
 </script>
 
-  <header class="fixed top-0 z-10 bg-mustard flex w-full h-24 justify-between px-4 shadow-lg">
+  <header class="fixed top-0 z-10 bg-mustard flex w-screen h-24 justify-between px-4 shadow-md">
     <div class="flex items-center">
       <a href="."><img class= "max-h-16 hidden sm:block" src="logo-v2.png" alt="logo" /></a>
       <a href="."><img class= "max-h-16 block sm:hidden" src="logo-v2-small.png" alt="logo" /></a>

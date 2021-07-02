@@ -101,8 +101,4 @@
 		opacity: 60%;
 	}
 
-	.bg2-lg-a {
-		background-image: url("./bg2-lg.png");
-		opacity: 50%;
-	}
 </style>

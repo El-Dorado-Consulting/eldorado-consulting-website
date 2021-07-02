@@ -1,3 +1,4 @@
+
 <script context="module">
 
 	import { base } from "$app/paths";
@@ -22,9 +23,7 @@
 
 	let parallax;
 	export let posts;
-	let one
 
-	let section
 
 	function scrollHandler (event) {
 		console.log(event.detail.section)
@@ -45,7 +44,7 @@
 	</ParallaxLayer>
 	<ParallaxLayer rate={0} span={1} offset={0}>
 		<section class="section">
-			<Banner />
+			<Banner on:message={scrollHandler} />
 		</section>
 	</ParallaxLayer>
 	<ParallaxLayer rate={0} span={1} offset={1}>

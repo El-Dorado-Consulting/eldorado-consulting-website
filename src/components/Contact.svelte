@@ -9,28 +9,33 @@
     </div>
   </div>
   <div class="flex-1 flex justify-center items-center mx-2 w-full">
-    <form class="flex flex-col w-full">
+    <form 
+      class="flex flex-col w-full"
+      action="https://formspree.io/f/xjvpoebg"
+      method="POST"
+      >
       <input
         class="p-2 mb-2 bg-gray-50 rounded focus:outline-none"
         type="text"
-        id="fname"
+        name="user_name"
         placeholder="Name"
       />
       <input
         class="p-2 mb-2 bg-gray-50 rounded focus:outline-none "
-        type="text"
-        id="fname"
+        type="email"
+        name="user_email"
         placeholder="Email"
       />
       <input
         class="p-2 mb-2 bg-gray-50 rounded focus:outline-none"
         type="text"
-        id="fname"
+        name="user_subject"
         placeholder="Subject"
       />
       <textarea
         class="p-2 mb-2 bg-gray-50 rounded-lg focus:outline-none"
         rows="4"
+        name="user_message"
         placeholder="Your Message"
       />
       <input class="bg-mustard text-white p-2" type="submit" value="Submit" />
@@ -39,6 +44,5 @@
 </div>
 
 <style>
-  input {
-  }
+
 </style>

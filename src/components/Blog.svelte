@@ -1,17 +1,18 @@
 <script>
-  export let blogs;
-  let image
-  console.log("Blogs", blogs);
- 
-  let i = 0
-  $: currentBlog = blogs[i];
-  $: currentURL = `./blog/${currentBlog.slug}`
 
-  function nextBlog() {
-    i ++
+  export let blogs;
+  $: currentBlog = blogs[1];
+  $: blogURL = `./blog/${currentBlog.slug}`;
+  $: imgURL = `./blog/${currentBlog.slug}.png`
+
+
+  function rotateFoward() {
+    blogs.unshift(blogs.pop());
+    blogs = blogs;
   }
-  function previousBlog() {
-    i --
+  function rotateBackward() {
+    blogs.push(blogs.shift());
+    blogs = blogs;
   }
 </script>
 
@@ -24,7 +25,7 @@
 
   <div class="flex-1 flex flex-col justify-center items-center">
     <div class="flex-1 max-w-md bg-white shadow-xl  rounded-lg">
-      <img class="mb-2" src={image} alt="" />
+      <img class="mb-2 rounded-t-lg" src={imgURL} alt="" />
       <div class="bg-white text-black mb-4 p-4">
         <h2 class="text-2xl mb-2 font-rale">{currentBlog.metadata.title}</h2>
         <h3 class="text-xl mb-4 font-quick">{currentBlog.metadata.subtitle}</h3>
@@ -32,13 +33,20 @@
         <div class="">
           <p class="font-dm">
             {currentBlog.metadata.blurb}
-            <span>...<a class="text-mint" href={currentURL}>continue reading</a></span>
+            <span
+              >...<a class="text-mint" href={blogURL}>continue reading</a
+              ></span
+            >
           </p>
         </div>
       </div>
       <div class=" flex-1 flex justify-between mt-16">
-        <button on:click={previousBlog} class="p-2"><span>←</span>{blogs[1].metadata.title}</button>
-        <button on:click={nextBlog} class="p-2">{blogs[0].metadata.title}<span>→</span></button>
+        <button on:click={rotateBackward} class="p-2"
+          ><span>←</span>{blogs[2].metadata.title}</button
+        >
+        <button on:click={rotateFoward} class="p-2"
+          >{blogs[0].metadata.title}<span>→</span></button
+        >
       </div>
     </div>
   </div>

@@ -1,12 +1,9 @@
 ---
 title: "Unsung Heroes"
-subtitle: "Taming the Change Management Leviathan"
+subtitle: "Learning how to tame the change management leviathan"
 date: 2021-04-04
 blurb: "Before starting this essay, I wanted to see what else had been written on change management. I was soon filled with a vague sense of dread, however, as I realized just how much material"
 ---
-## Unsung Heroes 
-
-### Taming the Change Management Leviathan
 
 Before starting this essay, I wanted to see what else had been written on change management. I was soon filled with a vague sense of dread, however, as I realized just how much material is out there—an indication of how enduring a challenge the subject is. I found most of it frustrating. The truisms, “key points” and formulas often felt more like infomercials.
 

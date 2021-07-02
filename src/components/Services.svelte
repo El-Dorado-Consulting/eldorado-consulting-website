@@ -61,8 +61,4 @@ $: currentURL = `./slider/${currentSlide.imgURL}`
 
 <style>
 
-  .marginBotton {
-    margin-bottom: 1.2rem
-    
-  }
 </style>

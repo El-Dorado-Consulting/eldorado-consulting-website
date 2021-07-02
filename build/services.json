@@ -1,0 +1,25 @@
+{
+  "one": {
+    "title": "Agile Training & Process Development",
+    "summary": "Get the inside scoop on what goes into successful training academies and playbooks. Learn our approach for breaking down the toughest tasks into teachable parts. See big gains in consistency, productivity and training time.",
+    "imgURL": "agile-training.png"
+  },
+  "two": {
+    "title": "Lean Repair Workflow Design",
+    "summary":
+      "Repair ops hit a plateau? Looking for a better path forward? In this course, we share a fresh approach to micromobility operations that will help you break out of old habits, simplify your day-to-day and elevate your performance.",
+    "imgURL": "lean-repair.png"
+  },
+  "three": {
+    "title": "Data Sanity for Operations & Inventory",
+    "summary":
+      "Can’t fully trust your ops data? Wish you had more insightful metrics? Let us help get your back of the house in order! We help you rethink your metrics, improve your data collection methods and lean out your inventory management",
+    "imgURL": "data-sanity.png"
+  },
+  "four": {
+    "title": "Developing Your Central Ops Strategy",
+    "summary":
+      "Are you dealing with dozens of initiatives but none are getting the traction you’ve been hoping for? We provide key strategies for improving alignment. It’s time to get some lazer focus on the biggest levers for reaching profitability.",
+    "imgURL": "ops-strategy.png"
+  }
+}

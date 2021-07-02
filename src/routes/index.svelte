@@ -34,7 +34,7 @@
 
 
 <Header on:message={scrollHandler} />
-<div class="mx-auto">
+<div class="wrapper">
 <Parallax
 	bind:this={parallax}
 	sections={6}
@@ -80,6 +80,11 @@
 </div>
 
 <style>
+
+	.wrapper{
+		max-width: 1536px;
+		margin: 0 auto;
+	}
 	.section {
 		zoom: 30px;
 		height: 100%;

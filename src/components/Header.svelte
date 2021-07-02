@@ -15,7 +15,7 @@
       <a href="."><img class= "max-h-16 block sm:hidden" src="logo-v2-small.png" alt="logo" /></a>
     </div>
 
-    <nav class ="flex items-center font-quick font-bold ">
+    <nav class ="flex items-center font-quick font-bold sm:mr-8">
       <button on:click={() => sectionHandler(2)} class="text-white mx-1 sm:mx-2">About</button>
       <button on:click={() => sectionHandler(3)} class="text-white mx-1 sm:mx-2">Services</button>
       <button on:click={() => sectionHandler(4)} class="text-white mx-1 sm:mx-2">Blog</button>

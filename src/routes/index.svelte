@@ -1,5 +1,5 @@
 
-<script context="module">
+<!-- <script context="module">
 
 	import { base } from "$app/paths";
 	export async function load({ fetch }) {
@@ -8,7 +8,7 @@
 			props: { posts },
 		};
 	}
-</script>
+</script> -->
 
 <script>
 	import "../app.postcss";

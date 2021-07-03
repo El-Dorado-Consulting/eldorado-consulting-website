@@ -1,5 +1,5 @@
 
-<script context="module">
+<!-- <script context="module">
 	export async function load({ fetch }) {
 		const posts = await fetch('./index.json').then((r) => r.json());
 		console.log("POSTS")
@@ -7,7 +7,7 @@
 			props: { posts },
 		};
 	}
-</script>
+</script> -->
 
 <script>
 	import "../app.postcss";
@@ -63,7 +63,7 @@
 	</ParallaxLayer>
 	<ParallaxLayer rate={0} span={1} offset={3}>
 		<section class="section bg-gray-100">
-			<Blog blogs={posts} />
+			<!-- <Blog blogs={posts} /> -->
 		</section>
 	</ParallaxLayer>
 	<ParallaxLayer rate={0} span={1} offset={4}>

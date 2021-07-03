@@ -97,7 +97,7 @@
 		background-size: 100%;
 	}
 	.bg1-lg {
-		background-image: url("./bg1-lg.png");
+		background-image: url("https://i.ibb.co/gMDQkt2/bg1-lg.png");
 		opacity: 60%;
 	}
 

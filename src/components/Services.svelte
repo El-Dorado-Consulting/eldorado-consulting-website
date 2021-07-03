@@ -38,7 +38,7 @@ $: currentURL = `./slider/${currentSlide.imgURL}`
 <div class=" w-screen flex flex-col-reverse sm:flex-row">
   <div class="flex-1 flex flex-col justify-center items-center max-full">
     <div class=" flex flex-col text-white max-w-md sm:shadow-md rounded">
-      <img class="mx-24"src={currentURL} alt="thumbs-up" />
+      <img class="mx-auto w-64 "src={currentURL} alt="thumbs-up" />
       <div class="bg-mint p-4 rounded-b ">
         <h3 class="text-2xl mb-4 font-quick">{currentSlide.title}</h3>
         <p class="text-md font-dm">{currentSlide.summary}</p>

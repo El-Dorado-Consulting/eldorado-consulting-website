@@ -53678,9 +53678,9 @@ function init(settings) {
     amp: false,
     dev: false,
     entry: {
-      file: "/./_app/start-98b4106a.js",
+      file: "/./_app/start-d7d1dfb8.js",
       css: ["/./_app/assets/start-0826e215.css", "/./_app/assets/vendor-d371826a.css"],
-      js: ["/./_app/start-98b4106a.js", "/./_app/chunks/vendor-d2726d5a.js", "/./_app/chunks/paths-45dac81d.js"]
+      js: ["/./_app/start-d7d1dfb8.js", "/./_app/chunks/vendor-d2726d5a.js", "/./_app/chunks/paths-45dac81d.js"]
     },
     fetched: void 0,
     floc: false,
@@ -53708,7 +53708,7 @@ function init(settings) {
 var d = decodeURIComponent;
 var empty = () => ({});
 var manifest = {
-  assets: [{ "file": "bg1-lg.png", "size": 717144, "type": "image/png" }, { "file": "bg1-sm.png", "size": 250801, "type": "image/png" }, { "file": "bg2-lg.png", "size": 1338764, "type": "image/png" }, { "file": "bg2-sm.png", "size": 519647, "type": "image/png" }, { "file": "blog/trash-pandas.png", "size": 136527, "type": "image/png" }, { "file": "blog/tying-shoes.png", "size": 212741, "type": "image/png" }, { "file": "blog/unsung-heroes.png", "size": 156796, "type": "image/png" }, { "file": "favicon copy.png", "size": 3127, "type": "image/png" }, { "file": "favicon.png", "size": 1571, "type": "image/png" }, { "file": "logo-v2-small.png", "size": 3210, "type": "image/png" }, { "file": "logo-v2.png", "size": 8095, "type": "image/png" }, { "file": "services.json", "size": 1422, "type": "application/json" }, { "file": "slider/agile-training.png", "size": 16862, "type": "image/png" }, { "file": "slider/data-sanity.png", "size": 102583, "type": "image/png" }, { "file": "slider/lean-repair.png", "size": 86802, "type": "image/png" }, { "file": "slider/ops-strategy.png", "size": 66410, "type": "image/png" }, { "file": "team-logos.png", "size": 74475, "type": "image/png" }],
+  assets: [{ "file": "bg1-lg.png", "size": 717144, "type": "image/png" }, { "file": "bg1-sm.png", "size": 250801, "type": "image/png" }, { "file": "bg2-lg.png", "size": 1338764, "type": "image/png" }, { "file": "bg2-sm.png", "size": 519647, "type": "image/png" }, { "file": "blog/trash-pandas.png", "size": 136527, "type": "image/png" }, { "file": "blog/tying-shoes.png", "size": 212741, "type": "image/png" }, { "file": "blog/unsung-heroes.png", "size": 156796, "type": "image/png" }, { "file": "favicon copy.png", "size": 3127, "type": "image/png" }, { "file": "favicon.png", "size": 1571, "type": "image/png" }, { "file": "logo-v2-small.png", "size": 3210, "type": "image/png" }, { "file": "logo-v2.png", "size": 8095, "type": "image/png" }, { "file": "posts/trash-pandas.md", "size": 5483, "type": "text/markdown" }, { "file": "posts/tying-shoes.md", "size": 7463, "type": "text/markdown" }, { "file": "posts/unsung-heroes.md", "size": 9485, "type": "text/markdown" }, { "file": "slider/agile-training.png", "size": 16862, "type": "image/png" }, { "file": "slider/data-sanity.png", "size": 102583, "type": "image/png" }, { "file": "slider/lean-repair.png", "size": 86802, "type": "image/png" }, { "file": "slider/ops-strategy.png", "size": 66410, "type": "image/png" }, { "file": "team-logos.png", "size": 74475, "type": "image/png" }],
   layout: ".svelte-kit/build/components/layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -53784,7 +53784,7 @@ var module_lookup = {
     return _slug_;
   })
 };
-var metadata_lookup = { ".svelte-kit/build/components/layout.svelte": { "entry": "/./_app/layout.svelte-55fae4f0.js", "css": ["/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/layout.svelte-55fae4f0.js", "/./_app/chunks/vendor-d2726d5a.js"], "styles": null }, ".svelte-kit/build/components/error.svelte": { "entry": "/./_app/error.svelte-943560c4.js", "css": ["/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/error.svelte-943560c4.js", "/./_app/chunks/vendor-d2726d5a.js"], "styles": null }, "src/routes/index.svelte": { "entry": "/./_app/pages/index.svelte-4314b798.js", "css": ["/./_app/assets/pages/index.svelte-efaaa399.css", "/./_app/assets/app-92deeb75.css", "/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/pages/index.svelte-4314b798.js", "/./_app/chunks/vendor-d2726d5a.js", "/./_app/chunks/paths-45dac81d.js"], "styles": null }, "src/routes/blog/__layout.svelte": { "entry": "/./_app/pages/blog/__layout.svelte-24ed6bee.js", "css": ["/./_app/assets/app-92deeb75.css", "/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/pages/blog/__layout.svelte-24ed6bee.js", "/./_app/chunks/vendor-d2726d5a.js", "/./_app/pages/blog/Header.svelte-09acb0d4.js"], "styles": null }, "src/routes/blog/Header.svelte": { "entry": "/./_app/pages/blog/Header.svelte-09acb0d4.js", "css": ["/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/pages/blog/Header.svelte-09acb0d4.js", "/./_app/chunks/vendor-d2726d5a.js"], "styles": null }, "src/routes/blog/[slug].svelte": { "entry": "/./_app/pages/blog/[slug].svelte-3b160cf0.js", "css": ["/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/pages/blog/[slug].svelte-3b160cf0.js", "/./_app/chunks/vendor-d2726d5a.js", "/./_app/chunks/paths-45dac81d.js"], "styles": null } };
+var metadata_lookup = { ".svelte-kit/build/components/layout.svelte": { "entry": "/./_app/layout.svelte-55fae4f0.js", "css": ["/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/layout.svelte-55fae4f0.js", "/./_app/chunks/vendor-d2726d5a.js"], "styles": null }, ".svelte-kit/build/components/error.svelte": { "entry": "/./_app/error.svelte-943560c4.js", "css": ["/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/error.svelte-943560c4.js", "/./_app/chunks/vendor-d2726d5a.js"], "styles": null }, "src/routes/index.svelte": { "entry": "/./_app/pages/index.svelte-0b306d62.js", "css": ["/./_app/assets/pages/index.svelte-198311f5.css", "/./_app/assets/app-92deeb75.css", "/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/pages/index.svelte-0b306d62.js", "/./_app/chunks/vendor-d2726d5a.js", "/./_app/chunks/paths-45dac81d.js"], "styles": null }, "src/routes/blog/__layout.svelte": { "entry": "/./_app/pages/blog/__layout.svelte-24ed6bee.js", "css": ["/./_app/assets/app-92deeb75.css", "/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/pages/blog/__layout.svelte-24ed6bee.js", "/./_app/chunks/vendor-d2726d5a.js", "/./_app/pages/blog/Header.svelte-09acb0d4.js"], "styles": null }, "src/routes/blog/Header.svelte": { "entry": "/./_app/pages/blog/Header.svelte-09acb0d4.js", "css": ["/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/pages/blog/Header.svelte-09acb0d4.js", "/./_app/chunks/vendor-d2726d5a.js"], "styles": null }, "src/routes/blog/[slug].svelte": { "entry": "/./_app/pages/blog/[slug].svelte-3b160cf0.js", "css": ["/./_app/assets/vendor-d371826a.css"], "js": ["/./_app/pages/blog/[slug].svelte-3b160cf0.js", "/./_app/chunks/vendor-d2726d5a.js", "/./_app/chunks/paths-45dac81d.js"], "styles": null } };
 async function load_component(file) {
   return {
     module: await module_lookup[file](),
@@ -53818,8 +53818,8 @@ var markdown = /* @__PURE__ */ Object.freeze({
   process: process2
 });
 function get$1() {
-  let posts = import_fs.default.readdirSync(`src/posts`).filter((fileName) => /.+\.md$/.test(fileName)).map((fileName) => {
-    const { metadata } = process2(`src/posts/${fileName}`);
+  let posts = import_fs.default.readdirSync(`static/posts`).filter((fileName) => /.+\.md$/.test(fileName)).map((fileName) => {
+    const { metadata } = process2(`static/posts/${fileName}`);
     return {
       metadata,
       slug: fileName.slice(0, -3)
@@ -53838,7 +53838,7 @@ var index_json = /* @__PURE__ */ Object.freeze({
 });
 function get({ params }) {
   const { slug } = params;
-  const { metadata, content } = process2(`src/posts/${slug}.md`);
+  const { metadata, content } = process2(`static/posts/${slug}.md`);
   const body = JSON.stringify({ metadata, content });
   return {
     body
@@ -54400,8 +54400,8 @@ var Contact = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 </div>`;
 });
 var css = {
-  code: ".wrapper.svelte-k6u7ul{margin:0 auto;max-width:1536px}.section.svelte-k6u7ul{zoom:30px;align-items:center;display:flex;height:100%;justify-content:center;width:100%}.bg-img.svelte-k6u7ul{background-size:100%}.bg1-lg.svelte-k6u7ul{background-image:url(bg1-lg.png);opacity:60%}",
-  map: '{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["\\n<script context=\\"module\\">\\n\\n\\timport { base } from \\"$app/paths\\";\\n\\texport async function load({ fetch }) {\\n\\t\\tconst posts = await fetch(`${base}/index.json`).then((r) => r.json());\\n\\t\\treturn {\\n\\t\\t\\tprops: { posts },\\n\\t\\t};\\n\\t}\\n<\/script>\\n\\n<script>\\n\\timport \\"../app.postcss\\";\\n\\timport { Parallax, ParallaxLayer } from \\"svelte-parallax\\";\\n\\timport Header from \\"../components/Header.svelte\\";\\n\\timport Banner from \\"../components/Banner.svelte\\";\\n\\timport About from \\"../components/About.svelte\\";\\n\\timport Services from \\"../components/Services.svelte\\";\\n\\timport Blog from \\"../components/Blog.svelte\\";\\n\\timport Teams from \\"../components/Teams.svelte\\";\\n\\timport Contact from \\"../components/Contact.svelte\\";\\n\\n\\tlet parallax;\\n\\texport let posts;\\n\\n\\n\\tfunction scrollHandler (event) {\\n\\t\\tconsole.log(event.detail.section)\\n\\t\\tparallax.scrollTo(event.detail.section)\\n\\t}\\n\\t\\n<\/script>\\n\\n\\n<Header on:message={scrollHandler} />\\n<div class=\\"wrapper\\">\\n<Parallax\\n\\tbind:this={parallax}\\n\\tsections={6}\\n\\tconfig={{ stiffness: 1, damping: 1 }}\\n>\\n\\t<ParallaxLayer rate={0.2} span={1.5} offset={0}>\\n\\t\\t<section class=\\"section bg-img bg1-lg\\" />\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={0}>\\n\\t\\t<section class=\\"section\\">\\n\\t\\t\\t<Banner on:message={scrollHandler} />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={1}>\\n\\t\\t<section class=\\"section bg-mint\\">\\n\\t\\t\\t<About />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={2}>\\n\\t\\t<section class=\\"section bg-white\\">\\n\\t\\t\\t<Services />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0.2} span={1} offset={3}>\\n\\t\\t<section class=\\"section bg2-lg\\" />\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={3}>\\n\\t\\t<section class=\\"section bg-gray-100\\">\\n\\t\\t\\t<Blog blogs={posts} />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={4}>\\n\\t\\t<section  class=\\"section bg-white\\">\\n\\t\\t\\t<Teams />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={5}>\\n\\t\\t<section class=\\"section bg-white\\">\\n\\t\\t\\t<Contact />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n</Parallax>\\n</div>\\n\\n<style>.wrapper{margin:0 auto;max-width:1536px}.section{zoom:30px;align-items:center;display:flex;height:100%;justify-content:center;width:100%}.bg-img{background-size:100%}.bg1-lg{background-image:url(bg1-lg.png);opacity:60%}</style>\\n"],"names":[],"mappings":"AAiFO,sBAAQ,CAAC,OAAO,CAAC,CAAC,IAAI,CAAC,UAAU,MAAM,CAAC,sBAAQ,CAAC,KAAK,IAAI,CAAC,YAAY,MAAM,CAAC,QAAQ,IAAI,CAAC,OAAO,IAAI,CAAC,gBAAgB,MAAM,CAAC,MAAM,IAAI,CAAC,qBAAO,CAAC,gBAAgB,IAAI,CAAC,qBAAO,CAAC,iBAAiB,IAAI,UAAU,CAAC,CAAC,QAAQ,GAAG,CAAC"}'
+  code: ".wrapper.svelte-1emwd2m{margin:0 auto;max-width:1536px}.section.svelte-1emwd2m{zoom:30px;align-items:center;display:flex;height:100%;justify-content:center;width:100%}.bg-img.svelte-1emwd2m{background-size:100%}.bg1-lg.svelte-1emwd2m{background-image:url(https://i.ibb.co/gMDQkt2/bg1-lg.png);opacity:60%}",
+  map: '{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["\\n<script context=\\"module\\">\\n\\n\\timport { base } from \\"$app/paths\\";\\n\\texport async function load({ fetch }) {\\n\\t\\tconst posts = await fetch(`${base}/index.json`).then((r) => r.json());\\n\\t\\treturn {\\n\\t\\t\\tprops: { posts },\\n\\t\\t};\\n\\t}\\n<\/script>\\n\\n<script>\\n\\timport \\"../app.postcss\\";\\n\\timport { Parallax, ParallaxLayer } from \\"svelte-parallax\\";\\n\\timport Header from \\"../components/Header.svelte\\";\\n\\timport Banner from \\"../components/Banner.svelte\\";\\n\\timport About from \\"../components/About.svelte\\";\\n\\timport Services from \\"../components/Services.svelte\\";\\n\\timport Blog from \\"../components/Blog.svelte\\";\\n\\timport Teams from \\"../components/Teams.svelte\\";\\n\\timport Contact from \\"../components/Contact.svelte\\";\\n\\n\\tlet parallax;\\n\\texport let posts;\\n\\n\\n\\tfunction scrollHandler (event) {\\n\\t\\tconsole.log(event.detail.section)\\n\\t\\tparallax.scrollTo(event.detail.section)\\n\\t}\\n\\t\\n<\/script>\\n\\n\\n<Header on:message={scrollHandler} />\\n<div class=\\"wrapper\\">\\n<Parallax\\n\\tbind:this={parallax}\\n\\tsections={6}\\n\\tconfig={{ stiffness: 1, damping: 1 }}\\n>\\n\\t<ParallaxLayer rate={0.2} span={1.5} offset={0}>\\n\\t\\t<section class=\\"section bg-img bg1-lg\\" />\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={0}>\\n\\t\\t<section class=\\"section\\">\\n\\t\\t\\t<Banner on:message={scrollHandler} />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={1}>\\n\\t\\t<section class=\\"section bg-mint\\">\\n\\t\\t\\t<About />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={2}>\\n\\t\\t<section class=\\"section bg-white\\">\\n\\t\\t\\t<Services />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0.2} span={1} offset={3}>\\n\\t\\t<section class=\\"section bg2-lg\\" />\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={3}>\\n\\t\\t<section class=\\"section bg-gray-100\\">\\n\\t\\t\\t<Blog blogs={posts} />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={4}>\\n\\t\\t<section  class=\\"section bg-white\\">\\n\\t\\t\\t<Teams />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n\\t<ParallaxLayer rate={0} span={1} offset={5}>\\n\\t\\t<section class=\\"section bg-white\\">\\n\\t\\t\\t<Contact />\\n\\t\\t</section>\\n\\t</ParallaxLayer>\\n</Parallax>\\n</div>\\n\\n<style>.wrapper{margin:0 auto;max-width:1536px}.section{zoom:30px;align-items:center;display:flex;height:100%;justify-content:center;width:100%}.bg-img{background-size:100%}.bg1-lg{background-image:url(https://i.ibb.co/gMDQkt2/bg1-lg.png);opacity:60%}</style>\\n"],"names":[],"mappings":"AAiFO,uBAAQ,CAAC,OAAO,CAAC,CAAC,IAAI,CAAC,UAAU,MAAM,CAAC,uBAAQ,CAAC,KAAK,IAAI,CAAC,YAAY,MAAM,CAAC,QAAQ,IAAI,CAAC,OAAO,IAAI,CAAC,gBAAgB,MAAM,CAAC,MAAM,IAAI,CAAC,sBAAO,CAAC,gBAAgB,IAAI,CAAC,sBAAO,CAAC,iBAAiB,IAAI,mCAAmC,CAAC,CAAC,QAAQ,GAAG,CAAC"}'
 };
 async function load$1({ fetch: fetch22 }) {
   const posts = await fetch22(`${base}/index.json`).then((r) => r.json());
@@ -54418,7 +54418,7 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   do {
     $$settled = true;
     $$rendered = `${validate_component(Header$2, "Header").$$render($$result, {}, {}, {})}
-<div class="${"wrapper svelte-k6u7ul"}">${validate_component(Parallax, "Parallax").$$render($$result, {
+<div class="${"wrapper svelte-1emwd2m"}">${validate_component(Parallax, "Parallax").$$render($$result, {
       sections: 6,
       config: { stiffness: 1, damping: 1 },
       this: parallax
@@ -54429,28 +54429,28 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       }
     }, {
       default: () => `${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0.2, span: 1.5, offset: 0 }, {}, {
-        default: () => `<section class="${"section bg-img bg1-lg svelte-k6u7ul"}"></section>`
+        default: () => `<section class="${"section bg-img bg1-lg svelte-1emwd2m"}"></section>`
       })}
 	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 1, offset: 0 }, {}, {
-        default: () => `<section class="${"section svelte-k6u7ul"}">${validate_component(Banner, "Banner").$$render($$result, {}, {}, {})}</section>`
+        default: () => `<section class="${"section svelte-1emwd2m"}">${validate_component(Banner, "Banner").$$render($$result, {}, {}, {})}</section>`
       })}
 	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 1, offset: 1 }, {}, {
-        default: () => `<section class="${"section bg-mint svelte-k6u7ul"}">${validate_component(About, "About").$$render($$result, {}, {}, {})}</section>`
+        default: () => `<section class="${"section bg-mint svelte-1emwd2m"}">${validate_component(About, "About").$$render($$result, {}, {}, {})}</section>`
       })}
 	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 1, offset: 2 }, {}, {
-        default: () => `<section class="${"section bg-white svelte-k6u7ul"}">${validate_component(Services, "Services").$$render($$result, {}, {}, {})}</section>`
+        default: () => `<section class="${"section bg-white svelte-1emwd2m"}">${validate_component(Services, "Services").$$render($$result, {}, {}, {})}</section>`
       })}
 	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0.2, span: 1, offset: 3 }, {}, {
-        default: () => `<section class="${"section bg2-lg svelte-k6u7ul"}"></section>`
+        default: () => `<section class="${"section bg2-lg svelte-1emwd2m"}"></section>`
       })}
 	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 1, offset: 3 }, {}, {
-        default: () => `<section class="${"section bg-gray-100 svelte-k6u7ul"}">${validate_component(Blog, "Blog").$$render($$result, { blogs: posts }, {}, {})}</section>`
+        default: () => `<section class="${"section bg-gray-100 svelte-1emwd2m"}">${validate_component(Blog, "Blog").$$render($$result, { blogs: posts }, {}, {})}</section>`
       })}
 	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 1, offset: 4 }, {}, {
-        default: () => `<section class="${"section bg-white svelte-k6u7ul"}">${validate_component(Teams, "Teams").$$render($$result, {}, {}, {})}</section>`
+        default: () => `<section class="${"section bg-white svelte-1emwd2m"}">${validate_component(Teams, "Teams").$$render($$result, {}, {}, {})}</section>`
       })}
 	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 1, offset: 5 }, {}, {
-        default: () => `<section class="${"section bg-white svelte-k6u7ul"}">${validate_component(Contact, "Contact").$$render($$result, {}, {}, {})}</section>`
+        default: () => `<section class="${"section bg-white svelte-1emwd2m"}">${validate_component(Contact, "Contact").$$render($$result, {}, {}, {})}</section>`
       })}`
     })}
 </div>`;

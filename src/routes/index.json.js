@@ -1,13 +1,13 @@
 
-import { process } from './blog/markdown.js';
+import { process } from '$lib/markdown.js';
 import fs from 'fs';
 import dayjs from 'dayjs';
 
 export function get() {
-  let posts = fs.readdirSync(`static/posts`)
+  let posts = fs.readdirSync('src/posts')
       .filter(fileName => /.+\.md$/.test(fileName))
       .map(fileName => {
-        const { metadata } = process(`static/posts/${fileName}`);
+        const { metadata } = process(`src/posts/${fileName}`);
         return {
           metadata,
           slug: fileName.slice(0, -3)

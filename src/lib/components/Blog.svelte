@@ -2,7 +2,7 @@
 
   export let blogs;
   $: currentBlog = blogs[1];
-  $: blogURL = `./blog/${currentBlog.slug}`;
+  $: blogURL = `./${currentBlog.slug}`;
   $: imgURL = `./blog/${currentBlog.slug}.png`
 
 

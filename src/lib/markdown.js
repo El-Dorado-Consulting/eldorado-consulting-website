@@ -21,7 +21,6 @@ let runner = unified()
 
 export function process(filename) {
   let tree = parser.parse(vfile.readSync(filename));
-  console.log('FILENAME:', filename)
   let metadata = null;
   if (tree.children.length > 0 && tree.children[0].type == "yaml") {
     metadata = yaml.load(tree.children[0].value);

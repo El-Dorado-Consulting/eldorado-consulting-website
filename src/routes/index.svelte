@@ -1,28 +1,28 @@
 
-<!-- <script context="module">
-
-	import { base } from "$app/paths";
+<script context="module">
 	export async function load({ fetch }) {
-		const posts = await fetch(`${base}/index.json`).then((r) => r.json());
+		const posts = await fetch('./index.json').then((r) => r.json());
+		console.log("POSTS")
 		return {
 			props: { posts },
 		};
 	}
-</script> -->
+</script>
 
 <script>
 	import "../app.postcss";
 	import { Parallax, ParallaxLayer } from "svelte-parallax";
-	import Header from "../components/Header.svelte";
-	import Banner from "../components/Banner.svelte";
-	import About from "../components/About.svelte";
-	import Services from "../components/Services.svelte";
-	import Blog from "../components/Blog.svelte";
-	import Teams from "../components/Teams.svelte";
-	import Contact from "../components/Contact.svelte";
+	import Header from "$lib/components/Header.svelte";
+	import Banner from "$lib/components/Banner.svelte";
+	import About from "$lib/components/About.svelte";
+	import Services from "$lib/components/Services.svelte";
+	import Blog from "$lib/components/Blog.svelte";
+	import Teams from "$lib/components/Teams.svelte";
+	import Contact from "$lib/components/Contact.svelte";
 
 	let parallax;
 	export let posts;
+	console.log('Posts', posts)
 
 
 	function scrollHandler (event) {

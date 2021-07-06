@@ -62,7 +62,7 @@
 		<section class="section bg2-lg" />
 	</ParallaxLayer>
 	<ParallaxLayer rate={0} span={1} offset={3}>
-		<section class="section bg-gray-100">
+		<section class="section">
 			<Blog blogs={posts} />
 		</section>
 	</ParallaxLayer>

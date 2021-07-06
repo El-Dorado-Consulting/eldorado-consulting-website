@@ -17,7 +17,7 @@
   <title>{post.metadata.title}</title>
 </svelte:head>
 <Header/>
-<div class="w-full mt-36">
+<div class="w-full mt-36 px-4">
     <div class="header">
       <h1 class="text-3xl mb-4 self-start">{post.metadata.title}</h1>
       <h2 class="text-xl mb-4">{post.metadata.subtitle}</h2>

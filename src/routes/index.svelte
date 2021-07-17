@@ -2,7 +2,6 @@
 <script context="module">
 	export async function load({ fetch }) {
 		const posts = await fetch('./index.json').then((r) => r.json());
-		console.log("POSTS")
 		return {
 			props: { posts },
 		};

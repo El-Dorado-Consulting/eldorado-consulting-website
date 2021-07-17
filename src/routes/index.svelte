@@ -21,9 +21,7 @@
 
 	let parallax;
 	export let posts;
-	console.log('Posts', posts)
-
-
+	
 	function scrollHandler (event) {
 		console.log(event.detail.section)
 		parallax.scrollTo(event.detail.section)

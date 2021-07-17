@@ -58,7 +58,7 @@
 			<Services />
 		</section>
 	</ParallaxLayer>
-	<ParallaxLayer rate={0.2} span={1} offset={3}>
+	<ParallaxLayer rate={0.2} span={1.5} offset={3}>
 		<section class="section bg2-lg" />
 	</ParallaxLayer>
 	<ParallaxLayer rate={0} span={1} offset={3}>
@@ -98,6 +98,11 @@
 	}
 	.bg1-lg {
 		background-image: url("https://i.ibb.co/gMDQkt2/bg1-lg.png");
+		opacity: 60%;
+	}
+
+	.bg2-lg {
+		background-image: url("https://i.ibb.co/yp1Bp1d/bg2-lg.png");
 		opacity: 60%;
 	}
 

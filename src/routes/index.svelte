@@ -1,12 +1,7 @@
 
-<!-- <script context="module">
-	export async function load({ fetch }) {
-		const posts = await fetch('./index.json').then((r) => r.json());
-		return {
-			props: { posts },
-		};
-	}
-</script> -->
+<script context="module">
+
+</script>
 
 <script>
 	import "../app.postcss";
@@ -20,7 +15,6 @@
 	import Contact from "$lib/components/Contact.svelte";
 
 	let parallax;
-	export let posts;
 	
 	function scrollHandler (event) {
 		console.log(event.detail.section)

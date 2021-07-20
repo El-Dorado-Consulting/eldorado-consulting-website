@@ -1,4 +1,5 @@
 ---
+layout: blog
 title: "Tying Shoes"
 subtitle: "Why training technicians should not be terrible"
 date: 2021-06-17

@@ -1,4 +1,5 @@
 ---
+layout: blog
 title: "Trash Pandas"
 subtitle: "What racoons can teach us about data collection"
 date: 2021-05-07

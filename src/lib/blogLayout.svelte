@@ -1,5 +1,9 @@
+<script>
+  	import "../app.postcss";
+</script>
+
+
 <div class="prose">
-  hello world
   <slot></slot>
 </div>
 

@@ -5,15 +5,14 @@
     </div>
     <div class="flex-1 flex flex-col justify-center items-center mx-4">
       <h2 class = "text-2xl mb-6 font-quick">
-        We’re a team of experts who’ve spent years building micromobility
-        operations from the ground-up across industry-leading companies
+        El Dorado is a team of experts who’ve spent years building micromobility operations from the ground-up across industry-leading companies.
+
       </h2>
       <p class="font-dm text-lg">
-        Our experience ranges from e-bikes to scooters, docked to dock-less,
-        leasing to sharing, local to multinational. Our expertise covers the
-        complete vehicle lifecycle, from its assembly to maintenance to failure
-        analysis. Whether it’s starting up your operation from scratch or taking
-        it to the next level, the El Dorado Team has you covered.
+        We give our clients a unique blend of theory and real-life experience that's proven to improve the efficiency of micromobility operations. 
+      </p>
+      <p class="font-dm text-lg">
+        Whether it’s starting up your operation from scratch or taking it to the next level, the El Dorado Team has you covered. 
       </p>
     </div>
   </div>

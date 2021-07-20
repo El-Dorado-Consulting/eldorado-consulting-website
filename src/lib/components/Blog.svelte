@@ -1,5 +1,4 @@
 <script>
-
   export let blogs;
   $: currentBlog = blogs[1];
   $: blogURL = `./${currentBlog.path.replace('.md','')}`;

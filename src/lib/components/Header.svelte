@@ -1,6 +1,8 @@
 <script>
-    let largeLogo = './logo-v2.png'
-    let smallLogo = './log-v2-small.png'
+    import {assets } from '$app/paths';
+
+    let largeLogo = `${assets}/logo-v2.png`
+    let smallLogo = `${assets}/logo-small-v2.png`
   	import { createEventDispatcher } from 'svelte';
     let dispatch = createEventDispatcher();
 

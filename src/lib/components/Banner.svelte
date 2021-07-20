@@ -15,7 +15,7 @@
   <div class="">
     <div class="bg-white text-center max-w-2xl p-6 sm:shadow-md rounded">
       <h1 class = "text-2xl sm:text-4xl mb-6 font-rale">MICROMOBILITY & PROCESS ENGINEERING SPECIALISTS</h1>
-      <h2 class="text-base sm:text-xl font-quick">You have the vision to execute. Let us focus on the details</h2>
+      <h2 class="text-base sm:text-xl font-quick">You have the vision to execute. Let us focus on the details.</h2>
     </div>
   </div>
   <div class="">

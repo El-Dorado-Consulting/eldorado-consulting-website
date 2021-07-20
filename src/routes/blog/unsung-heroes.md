@@ -5,6 +5,8 @@ date: 2021-04-04
 blurb: "Before starting this essay, I wanted to see what else had been written on change management. I was soon filled with a vague sense of dread, however, as I realized just how much material"
 ---
 
+## {title}
+
 Before starting this essay, I wanted to see what else had been written on change management. I was soon filled with a vague sense of dread, however, as I realized just how much material is out there—an indication of how enduring a challenge the subject is. I found most of it frustrating. The truisms, “key points” and formulas often felt more like infomercials.
 
 My experience is that change management will always be hard. It’s a process as unique as the people we encounter, and I like to think most of us are unique. Successful strategies depend on the scope of the change, the initial requirements and the existing culture. Instead of falsely proposing that change management can be painless, I will examine moments where I have experienced discomfort and help discern what is normal (or even promising) versus what is a warning sign that the project will not succeed. 

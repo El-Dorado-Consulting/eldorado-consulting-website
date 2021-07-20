@@ -7,7 +7,6 @@ import netlify from '@sveltejs/adapter-netlify'
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
     "extensions": [".svelte", ...mdsvexConfig.extensions],
-
     kit: {
 		target: '#svelte',
         adapter: netlify(),

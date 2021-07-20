@@ -1,10 +1,11 @@
 ---
-layout: blog
 title: "Tying Shoes"
 subtitle: "Why training technicians should not be terrible"
 date: 2021-06-17
 blurb: "When I started writing this, I did not expect that tying shoes would so nicely summarize the many challenges facing training technicians. It was amusing to learn that—even"
 ---
+
+## {title}
 
 When I started writing this, I did not expect that tying shoes would so nicely summarize the many challenges facing training technicians. It was amusing to learn that—even as many of us manage training programs—we can’t even tie our shoes correctly. Micromoblity operations have only had half a decade to mature whereas we have been tying knots all our lives. 
 

@@ -1,4 +1,6 @@
 <script>
+    let largeLogo = './logo-v2.png'
+    let smallLogo = './log-v2-small.png'
   	import { createEventDispatcher } from 'svelte';
     let dispatch = createEventDispatcher();
 
@@ -11,8 +13,8 @@
 
   <header class="fixed top-0 z-10 bg-mustard flex w-screen h-24 justify-between px-4 shadow-md">
     <div class="flex items-center">
-      <a href="."><img class= "max-h-16 hidden sm:block" src="logo-v2.png" alt="logo" /></a>
-      <a href="."><img class= "max-h-16 block sm:hidden" src="logo-v2-small.png" alt="logo" /></a>
+      <a href="../"><img class= "max-h-16 hidden sm:block" src={largeLogo} alt="logo" /></a>
+      <a href="../"><img class= "max-h-16 block sm:hidden" src={smallLogo} alt="logo" /></a>
     </div>
 
     <nav class ="flex items-center font-quick font-bold sm:mr-8">

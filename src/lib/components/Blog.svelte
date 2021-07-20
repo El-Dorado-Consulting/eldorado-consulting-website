@@ -2,8 +2,8 @@
 
   export let blogs;
   $: currentBlog = blogs[1];
-  $: blogURL = `./${currentBlog.slug}`;
-  $: imgURL = `./blog/${currentBlog.slug}.png`
+  $: blogURL = `./${currentBlog.path.replace('.md','')}`;
+  $: imgURL = `./${currentBlog.path.replace('.md','')}.png`
 
 
   function rotateFoward() {

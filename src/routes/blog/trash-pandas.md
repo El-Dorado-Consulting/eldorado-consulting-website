@@ -1,11 +1,11 @@
 ---
-layout: blog
 title: "Trash Pandas"
 subtitle: "What racoons can teach us about data collection"
 date: 2021-05-07
 blurb: "Data streams can be broken down into two types: manual and automated. And unless you’re Amazon, your operation will still rely on manual data inputs—from field reports and repair logs"
 ---
-<div class = "prose" >
+
+## {title}
 
 Data streams can be broken down into two types: manual and automated. And unless you’re Amazon, your operation will still rely on manual data inputs—from field reports and repair logs to inventory counts and rework trackers. You’ll need to find a reliable data collection process that works for you and your technicians. 
 
@@ -63,5 +63,3 @@ So data friends, before you start to write your 792nd SQL query, take a moment t
 *   Make do with less - or risk harming the quality of your data
 *   Give back - If you’re going to ask for data, provide some benefits
 *   Get clever - you will find the data you need
-
-</div>

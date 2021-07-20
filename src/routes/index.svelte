@@ -1,5 +1,20 @@
 
 <script context="module">
+	const allPosts = import.meta.glob("./blog/*md")
+	let body = []
+	for (let path in allPosts) {
+		body.push(
+			allPosts[path]().then(({metadata}) => {
+				return {path, metadata}
+			})
+		)
+	}
+	export const load = async() => {
+		const posts = await Promise.all(body)
+		return {
+			props:{posts}
+		}
+	}
 
 </script>
 
@@ -14,6 +29,7 @@
 	import Teams from "$lib/components/Teams.svelte";
 	import Contact from "$lib/components/Contact.svelte";
 
+	export let posts
 	let parallax;
 	
 	function scrollHandler (event) {
@@ -54,7 +70,7 @@
 	</ParallaxLayer>
 	<ParallaxLayer rate={0} span={1} offset={3}>
 		<section class="section">
-			<!-- <Blog blogs={posts} /> -->
+			<Blog blogs={posts} />
 		</section>
 	</ParallaxLayer>
 	<ParallaxLayer rate={0} span={1} offset={4}>

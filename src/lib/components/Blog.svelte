@@ -1,4 +1,5 @@
 <script>
+  import dayjs from 'dayjs';
   export let blogs;
   $: currentBlog = blogs[1];
   $: blogURL = `./${currentBlog.path.replace('.md','')}`;

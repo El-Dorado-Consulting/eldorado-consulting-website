@@ -29,7 +29,7 @@
       <div class="bg-white text-black mb-4 p-4">
         <a href={blogURL} class="text-2xl mb-2 font-rale">{currentBlog.metadata.title}</a>
         <h3 class="text-xl mb-4 font-quick">{currentBlog.metadata.subtitle}</h3>
-        <p class="text-sm mb-2">{currentBlog.metadata.date}</p>
+        <p class="text-sm mb-2">{dayjs(currentBlog.metadata.date).format("MMM D, YYYY")}</p>
         <div class="">
           <p class="font-dm">
             {currentBlog.metadata.blurb}

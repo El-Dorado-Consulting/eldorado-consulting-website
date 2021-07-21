@@ -28,7 +28,7 @@ Racoons are frustratingly clever creatures. They have reasoning skills comparabl
 
 Let’s examine a hypothetical racoon named Charlie who lives somewhere on my block. Charlie’s objective is to find enough food to survive. 
 
-If Charlie was to waltz into my neighbor's apartment, perch expectantly at the dining room table, and demand to be fed, he would be met with a great deal of consternation and maybe even shouting. Demanding food will be met with a boot, a slammed door or even poison.
+If Charlie was to waltz into my neighbor's apartment, perch expectantly at the dining room table, and demand to be fed, he would provoke a great deal of consternation and maybe even shouting. Demanding food will be p with a boot, a slammed door or even poison.
 
 
 

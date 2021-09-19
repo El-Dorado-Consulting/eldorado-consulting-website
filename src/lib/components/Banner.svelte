@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="">
-    <button on:click={sectionHandler} class="bg-mint text-white px-8 py-4 font-rale shadow-md rounded ">Connect With Us</button>
+    <button on:click={sectionHandler} class=" bg-mustard text-white px-8 py-4 font-rale shadow-md rounded uppercase">Connect With Us</button>
   </div> 
 </section>
 

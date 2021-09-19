@@ -38,7 +38,7 @@
         name="user_message"
         placeholder="Your Message"
       />
-      <input class="bg-mustard text-white p-2" type="submit" value="Submit" />
+      <input class="bg-mustard text-white p-2 uppercase" type="submit" value="Submit" />
     </form>
   </div>
 </div>

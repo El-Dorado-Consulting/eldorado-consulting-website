@@ -13,9 +13,9 @@
 <section class = " h-screen flex flex-col items-center justify-between py-40">
   <div class="spacer"></div>
   <div class="">
-    <div class="bg-white text-center max-w-2xl p-6 sm:shadow-md rounded">
-      <h1 class = "text-2xl sm:text-4xl mb-6 font-rale">MICROMOBILITY & PROCESS ENGINEERING SPECIALISTS</h1>
-      <h2 class="text-base sm:text-xl font-quick">You have the vision to execute. Let us focus on the details.</h2>
+    <div class="bg-white text-center max-w-3xl p-8 sm:shadow-md rounded">
+      <h1 class = "text-3xl sm:text-5xl sm:leading-snug mb-6 font-rale">MICROMOBILITY & PROCESS ENGINEERING SPECIALISTS</h1>
+      <h2 class="text-base sm:text-xl font-quick uppercase">You have the vision to execute. Let us focus on the details.</h2>
     </div>
   </div>
   <div class="">

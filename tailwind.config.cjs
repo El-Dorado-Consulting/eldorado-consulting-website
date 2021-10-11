@@ -20,7 +20,12 @@ const config = {
 			black: {
 				DEFAULT: '#000000'
 			},
-			gray: colors.coolGray
+			darkGray: {
+				DEFAULT: '#777777'
+			},
+			lightGray: {
+				DEFAULT: '#F5F5F5'
+			}
 		},
 		extend: {
 			fontFamily: {

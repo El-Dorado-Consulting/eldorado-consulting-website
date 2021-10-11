@@ -1,7 +1,7 @@
 <script>
     import {assets } from '$app/paths';
 
-    let largeLogo = `${assets}/logo-v2.png`
+    let largeLogo = `${assets}/horizontal-logo.png`
     let smallLogo = `${assets}/logo-small-v2.png`
   	import { createEventDispatcher } from 'svelte';
     let dispatch = createEventDispatcher();
@@ -13,17 +13,17 @@
   }
 </script>
 
-  <header class="fixed top-0 z-10 bg-mustard flex w-screen max-h-20 justify-between px-4 shadow-md">
+  <header class="fixed top-0 z-10 bg-white flex w-screen max-h-20 justify-between px-4 shadow-md">
     <div class="flex items-center">
       <a href="../"><img class= "max-h-16 hidden sm:block" src={largeLogo} alt="logo" /></a>
       <a href="../"><img class= "max-h-16 block sm:hidden" src={smallLogo} alt="logo" /></a>
     </div>
 
-    <nav class ="flex items-center font-quick font-bold sm:mr-8">
-      <button on:click={() => sectionHandler(2)} class="text-white mx-1 sm:mx-2">About</button>
-      <button on:click={() => sectionHandler(3)} class="text-white mx-1 sm:mx-2">Services</button>
-      <button on:click={() => sectionHandler(4)} class="text-white mx-1 sm:mx-2">Blog</button>
-      <button on:click={() => sectionHandler(6)} class="text-white mx-1 sm:mx-2">Contact</button>
+    <nav class ="flex items-center font-quick  sm:mr-8 uppercase text-darkGray ">
+      <button on:click={() => sectionHandler(2)} class=" mx-10 sm:mx-8 uppercase font-bold hover:text-black">About</button>
+      <button on:click={() => sectionHandler(3)} class=" mx-10 sm:mx-8 uppercase font-bold hover:text-black">Services</button>
+      <button on:click={() => sectionHandler(4)} class=" mx-10 sm:mx-8 uppercase font-bold hover:text-black">Blog</button>
+      <button on:click={() => sectionHandler(6)} class=" mx-10 sm:mx-8 uppercase font-bold hover:text-black">Contact</button>
     </nav>
   </header>
 

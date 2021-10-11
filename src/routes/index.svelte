@@ -43,10 +43,10 @@
 <div class="wrapper">
 	<Parallax
 		bind:this={parallax}
-		sections={2}
+		sections={1.6}
 		config={{ stiffness: 1, damping: 1 }}
 	>
-		<ParallaxLayer rate={0.2} span={1} offset={0}>
+		<ParallaxLayer rate={0.3} span={1.6} offset={0}>
 			<section class="section bg-img bg1-lg" />
 		</ParallaxLayer>
 		<ParallaxLayer rate={0} span={1} offset={0}>
@@ -54,7 +54,7 @@
 				<Banner on:message={scrollHandler} />
 			</section>
 		</ParallaxLayer>
-		<ParallaxLayer rate={0} span={1} offset={1}>
+		<ParallaxLayer rate={0} span={.6} offset={1}>
 			<section class="section bg-mint">
 				<About />
 			</section>

@@ -27,7 +27,3 @@
     </nav>
   </header>
 
-<style>
-
-
-</style>

@@ -1,5 +1,7 @@
 <script>
   import { assets } from "$app/paths";
+  import Carousel from "$lib/components/Carousel.svelte";
+  let arrow = `${assets}/arrow.png`
   let services = [
     {
       title: "Workflow Engineering",
@@ -21,20 +23,23 @@
   ];
 </script>
 
-<div class="flex flex-col bg-lightGray p-4">
-  <h1 class = "text-5xl text-center font-rale mt-8 " > Our Services </h1>
-  <div class="flex flex-row justify-evenly">
+<div class="flex flex-col bg-lightGray">
+  <h1 class = "sm:text-5xl text-3xl text-center font-rale mt-8"> Our Services </h1>
+  <div class="flex flex-wrap content-evenly">
+  <!-- <Carousel /> -->
+
     {#each services as { title, image, paragraphs }}
-      <div class="flex flex-col bg-white shadow-md rounded mx-8 my-12">
-        <img class="" src={image} alt="" width="500px" />
-        <div class="p-2">
+      <div class=" flex-1 flex flex-wrap flex-col bg-white shadow-md rounded ">
+        <img class=" w-auto " src={image} alt="" />
+        <div class="p-4 mt-4">
           <p class=" text-2xl font-quick mb-4 underline">{title}</p>
           {#each paragraphs as paragraph}
-            <p class="font-dm text-justify my-2">{paragraph}</p>
+            <p class="font-dm text-justify my-4">{paragraph}</p>
           {/each}
         </div>
       </div>
     {/each}
+ 
   </div>
   <h2 class=" flex-1 uppercase text-2xl text-center">
     CANT FIND WHAT YOU’RE LOOKING FOR? CONTACT US TO EXPLORE MORE HANDS ON

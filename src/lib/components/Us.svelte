@@ -5,16 +5,18 @@
   let thomas = `${assets}/thomas.png`
 </script>
 
-<div class=" w-full flex flex-row h-full"> 
-    <div class = "flex flex-col items-center w-full">
-      <img class="rounded-full w-5/12" src={erik} alt="">
+<div class=" w-full flex flex-row h-full text-sm"> 
+    <div class = "flex-1 flex flex-col items-center w-full p-4">
+      <img class=" rounded-full " src={erik} alt="">
       <p class="mt-4 font-bold">Erik </p>
     </div>
-      <img class="rounded-full w-5/12" src={sarah} alt="">
+    <div class = "flex-1 flex flex-col items-center w-full p-4">
+      <img class="rounded-full " src={sarah} alt="">
       <p class="mt-4 font-bold">Sarah </p>
     </div>
-    <div class = "flex flex-col items-center w-full">
-      <img class="rounded-full w-5/12" src={thomas} alt="">
+    <div class = "flex-1 flex flex-col items-center w-full p-4">
+      <img class="rounded-full " src={thomas} alt="">
       <p class="mt-4 font-bold">Thomas</p>
-</div>
+    </div>
+  </div>
 

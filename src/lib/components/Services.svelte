@@ -23,13 +23,15 @@
   ];
 </script>
 
-<div class="flex flex-col bg-lightGray">
+<div class="flex flex-col bg-lightGray w-full ">
   <h1 class = "sm:text-5xl text-3xl text-center font-rale mt-8"> Our Services </h1>
-  <div class="flex flex-wrap content-evenly">
+  <div class="flex flex-wrap justify-evenly mt-8">
+  <button class="w-8 left">
+    <img src={arrow} alt="">
+  </button>
   <!-- <Carousel /> -->
-
     {#each services as { title, image, paragraphs }}
-      <div class=" flex-1 flex flex-wrap flex-col bg-white shadow-md rounded ">
+      <div class=" flex-1 flex flex-wrap flex-col bg-white shadow-md rounded max-w-2xl mx-4 ">
         <img class=" w-auto " src={image} alt="" />
         <div class="p-4 mt-4">
           <p class=" text-2xl font-quick mb-4 underline">{title}</p>
@@ -39,10 +41,13 @@
         </div>
       </div>
     {/each}
+    <button class="w-8 right">
+      <img class="transform -rotate-180" src={arrow} alt="">
+    </button>
  
   </div>
-  <h2 class=" flex-1 uppercase text-2xl text-center">
-    CANT FIND WHAT YOU’RE LOOKING FOR? CONTACT US TO EXPLORE MORE HANDS ON
+  <h2 class=" flex-1 uppercase text-3xl text-center my-8">
+    CANT FIND WHAT YOU’RE LOOKING FOR? <span class ="font-bold underline text-mustard">CONTACT US</span> TO EXPLORE MORE HANDS ON
     PROJECTS
   </h2>
 </div>

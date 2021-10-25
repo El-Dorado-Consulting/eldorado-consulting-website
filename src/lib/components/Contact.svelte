@@ -1,4 +1,4 @@
-<div class="flex flex-col sm:flex-row w-full">
+<div class="flex flex-col sm:flex-row w-full my-8">
   <div class="flex-1 flex flex-col justify-center items-center px-4 w-full">
     <div class="max-w-xl">
       <h1 class="text-3xl mb-16 sm:mb-4 font-rale">Contact Us</h1>

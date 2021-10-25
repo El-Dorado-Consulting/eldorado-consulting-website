@@ -46,7 +46,7 @@
 		sections={1.6}
 		config={{ stiffness: 1, damping: 1 }}
 	>
-		<ParallaxLayer rate={0.20} span={1.8} offset={0}>
+		<ParallaxLayer rate={0.2} span={1.6} offset={0}>
 			<section class="section bg-img bg1-lg" />
 		</ParallaxLayer>
 		<ParallaxLayer rate={0} span={1} offset={0}>
@@ -63,31 +63,29 @@
 	<section class="section">
 		<Us />
 	</section>
-
 	<section class="section bg-white">
 		<Services />
 	</section>
-	<section class="section bg2-lg" />
 	<Parallax
 	bind:this={parallax}
-	sections={1}
+	sections={1.2}
 	config={{ stiffness: 1, damping: 1 }}
->
+	>
 	<ParallaxLayer rate={0.25} span={1} offset={0}>
 		<section class="section bg-img bg2-lg" />
 	</ParallaxLayer>
-	<ParallaxLayer rate={0} span={1} offset={0}>
+	<ParallaxLayer rate={0} span={.6} offset={0}>
 		<section class="section">
 			<Blog blogs={posts} on:message={scrollHandler} /> 
 		</section>
 	</ParallaxLayer>
-	<ParallaxLayer rate={0} span={.6} offset={.5}>
+	<ParallaxLayer rate={0} span={.6} offset={.6}>
 		<section class="section bg-white">
 			<Teams />
 		</section>
 	</ParallaxLayer>
 </Parallax>
-	<section class="section bg-gray">
+	<section class="section bg-lightGray">
 		<Testimonial />
 	</section>
 	<section class="section bg-white">
@@ -132,6 +130,7 @@
 	}
 	.bg2-lg {
 		background-image: url("https://ibb.co/1v7YvWx");
+		background-position-y: 600px;
 		opacity: 60%;
 	}
 

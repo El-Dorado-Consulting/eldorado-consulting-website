@@ -98,7 +98,7 @@
 
 <style>
 	.wrapper {
-		max-width: 1800px;
+		max-width: 1820px;
 		margin: 0 auto;
 	}
 	.section {

@@ -1,7 +1,7 @@
 
   
 <script>
- let quote = 'This is not a process change -- this is a change of religion'
+ let quote = '"This is not a process change—this is a change of religion"'
  let headshot = 'https://media-exp1.licdn.com/dms/image/C5603AQHUdMAvQBfxlA/profile-displayphoto-shrink_400_400/0/1557894325428?e=1635379200&v=beta&t=CAOyZ1n7oxGRiu-pC9qKNNYrf7XLbFTu7ES5qqyekd4'
  let name = 'Jon Just'
  let title = 'Head of Hardware - New Mobility at Uber' 

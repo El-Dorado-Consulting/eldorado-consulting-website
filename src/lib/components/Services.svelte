@@ -1,6 +1,6 @@
 <script>
   import { assets } from "$app/paths";
-  import Carousel from "$lib/components/Carousel.svelte";
+  import MediaQuery from "$lib/components/MediaQuery.svelte";
   let arrow = `${assets}/arrow.png`
   let services = [
     {
@@ -74,17 +74,30 @@
     chunkArray = chunkArray;
   }
 
-  $: current = chunkArray[0] 
-  
+  function rotateFowardTwo() {
+    singleArray.unshift(singleArray.pop());
+    singleArray = singleArray;
+  }
+  function rotateBackwardTwo() {
+    console.log('rotate')
+    singleArray.push(singleArray.shift());
+    singleArray = singleArray;
+  }
+
+  $: current = chunkArray[0]
+
+  let singleArray = services
+  $: single = singleArray[0]
+
+
 </script>
 
-<div class="flex flex-col bg-lightGray w-full ">
-  <h1 class = "sm:text-5xl text-3xl text-center font-rale mt-8"> Our Services </h1>
+<div class="flex flex-col bg-lightGray w-full hidden">
+  <h1 class = "sm:text-5xl text-3xl text-center font-rale mt-8"> Our singleArray </h1>
   <div class="flex flex-wrap justify-evenly mt-8">
   <button class="w-8 left" on:click={rotateBackward}>
     <img src={arrow} alt="">
   </button>
-  <!-- <Carousel /> -->
     {#each current as { title, image, paragraphs }}
       <div class=" flex-1 flex flex-wrap flex-col bg-white shadow-md rounded max-w-2xl mx-4 ">
         <img class=" w-auto " src={image} alt="" />
@@ -99,10 +112,36 @@
     <button class="w-8 right" on:click={rotateFoward}>
       <img class="transform -rotate-180" src={arrow} alt="">
     </button>
- 
   </div>
   <h2 class=" flex-1 uppercase text-3xl text-center my-8">
     CANT FIND WHAT YOU’RE LOOKING FOR? <span class ="font-bold underline text-mustard">CONTACT US</span> TO EXPLORE MORE HANDS ON
     PROJECTS
   </h2>
 </div>
+
+<div class="flex flex-col bg-lightGray w-full">
+  <h1 class = "sm:text-5xl text-3xl text-center font-rale mt-8"> Our singleArray </h1>
+  <div class="flex flex-wrap justify-evenly mt-8">
+  <button class="w-8 left" on:click={rotateBackwardTwo}>
+    <img src={arrow} alt="">
+  </button>
+      <div class=" flex-1 flex flex-wrap flex-col bg-white shadow-md rounded max-w-2xl mx-4 ">
+        <img class=" w-auto " src={single.image} alt="" />
+        <div class="p-4 mt-4">
+          <p class=" text-2xl font-quick mb-4 underline">{single.title}</p>
+          {#each single.paragraphs as paragraph}
+            <p class="font-dm text-justify my-4">{paragraph}</p>
+          {/each}
+        </div>
+      </div>
+    <button class="w-8 right" on:click={rotateFowardTwo}>
+      <img class="transform -rotate-180" src={arrow} alt="">
+    </button>
+  </div>
+  <h2 class=" flex-1 uppercase text-3xl text-center my-8">
+    CANT FIND WHAT YOU’RE LOOKING FOR? <span class ="font-bold underline text-mustard">CONTACT US</span> TO EXPLORE MORE HANDS ON
+    PROJECTS
+  </h2>
+</div>
+
+

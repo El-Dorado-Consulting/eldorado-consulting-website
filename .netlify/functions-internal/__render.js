@@ -6403,9 +6403,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-007da96a.js",
+      file: assets + "/_app/start-267d885f.js",
       css: [assets + "/_app/assets/start-464e9d0a.css", assets + "/_app/assets/vendor-464ad708.css"],
-      js: [assets + "/_app/start-007da96a.js", assets + "/_app/chunks/vendor-4edf8b19.js", assets + "/_app/chunks/preload-helper-ec9aa979.js", assets + "/_app/chunks/paths-bacddcca.js"]
+      js: [assets + "/_app/start-267d885f.js", assets + "/_app/chunks/vendor-4edf8b19.js", assets + "/_app/chunks/preload-helper-ec9aa979.js", assets + "/_app/chunks/paths-bacddcca.js"]
     },
     fetched: void 0,
     floc: false,
@@ -6434,7 +6434,7 @@ function init(settings = default_settings) {
 }
 var empty = () => ({});
 var manifest = {
-  assets: [{ "file": "arrow.png", "size": 1910, "type": "image/png" }, { "file": "bg1-lg.png", "size": 717144, "type": "image/png" }, { "file": "bg1-sm.png", "size": 250801, "type": "image/png" }, { "file": "bg2-lg.png", "size": 1338764, "type": "image/png" }, { "file": "bg2-sm.png", "size": 519647, "type": "image/png" }, { "file": "blog/goodwill-reservoir.png", "size": 18947, "type": "image/png" }, { "file": "blog/trash-pandas.png", "size": 136527, "type": "image/png" }, { "file": "blog/tying-shoes.png", "size": 212741, "type": "image/png" }, { "file": "blog/unsung-heroes.png", "size": 156796, "type": "image/png" }, { "file": "erik.png", "size": 64012, "type": "image/png" }, { "file": "logo-v3-small.png", "size": 28439, "type": "image/png" }, { "file": "logo-v3.png", "size": 41363, "type": "image/png" }, { "file": "sarah.png", "size": 90282, "type": "image/png" }, { "file": "slider/agile-training.png", "size": 16862, "type": "image/png" }, { "file": "slider/data-sanity.png", "size": 102583, "type": "image/png" }, { "file": "slider/lean-repair.png", "size": 86802, "type": "image/png" }, { "file": "slider/ops-strategy.png", "size": 66410, "type": "image/png" }, { "file": "team-logos.png", "size": 49979, "type": "image/png" }, { "file": "thomas.png", "size": 67952, "type": "image/png" }, { "file": "training.png", "size": 79204, "type": "image/png" }],
+  assets: [{ "file": "arrow.png", "size": 1910, "type": "image/png" }, { "file": "bg1-lg.png", "size": 717144, "type": "image/png" }, { "file": "bg1-sm.png", "size": 250801, "type": "image/png" }, { "file": "bg2-lg.png", "size": 1338764, "type": "image/png" }, { "file": "bg2-sm.png", "size": 519647, "type": "image/png" }, { "file": "blog/goodwill-reservoir.png", "size": 18947, "type": "image/png" }, { "file": "blog/trash-pandas.png", "size": 136527, "type": "image/png" }, { "file": "blog/tying-shoes.png", "size": 212741, "type": "image/png" }, { "file": "blog/unsung-heroes.png", "size": 156796, "type": "image/png" }, { "file": "erik.png", "size": 64012, "type": "image/png" }, { "file": "logo-v3-small.png", "size": 28439, "type": "image/png" }, { "file": "logo-v3.png", "size": 41363, "type": "image/png" }, { "file": "sarah.png", "size": 90282, "type": "image/png" }, { "file": "services/data.png", "size": 37342, "type": "image/png" }, { "file": "services/infrastructure.png", "size": 315279, "type": "image/png" }, { "file": "services/inventory.png", "size": 357759, "type": "image/png" }, { "file": "services/software.png", "size": 58030, "type": "image/png" }, { "file": "services/training.png", "size": 257942, "type": "image/png" }, { "file": "services/workflow.png", "size": 303498, "type": "image/png" }, { "file": "team-logos.png", "size": 49979, "type": "image/png" }, { "file": "thomas.png", "size": 67952, "type": "image/png" }, { "file": "training.png", "size": 79204, "type": "image/png" }],
   layout: ".svelte-kit/build/components/layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -6507,7 +6507,7 @@ var module_lookup = {
     return tyingShoes;
   })
 };
-var metadata_lookup = { ".svelte-kit/build/components/layout.svelte": { "entry": "layout.svelte-1cfe2eb9.js", "css": ["assets/vendor-464ad708.css"], "js": ["layout.svelte-1cfe2eb9.js", "chunks/vendor-4edf8b19.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-76e73851.js", "css": ["assets/vendor-464ad708.css"], "js": ["error.svelte-76e73851.js", "chunks/vendor-4edf8b19.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-4876f38e.js", "css": ["assets/pages/index.svelte-26351f71.css", "assets/vendor-464ad708.css", "assets/Header-dc468221.css"], "js": ["pages/index.svelte-4876f38e.js", "chunks/preload-helper-ec9aa979.js", "chunks/vendor-4edf8b19.js", "chunks/Header-bad94e9c.js", "chunks/paths-bacddcca.js"], "styles": [] }, "src/routes/blog/__layout.svelte": { "entry": "pages/blog/__layout.svelte-ee868414.js", "css": ["assets/vendor-464ad708.css", "assets/Header-dc468221.css"], "js": ["pages/blog/__layout.svelte-ee868414.js", "chunks/vendor-4edf8b19.js", "chunks/Header-bad94e9c.js", "chunks/paths-bacddcca.js"], "styles": [] }, "src/routes/blog/goodwill-reservoir.md": { "entry": "pages/blog/goodwill-reservoir.md-b1f87713.js", "css": ["assets/vendor-464ad708.css"], "js": ["pages/blog/goodwill-reservoir.md-b1f87713.js", "chunks/vendor-4edf8b19.js"], "styles": [] }, "src/routes/blog/unsung-heroes.md": { "entry": "pages/blog/unsung-heroes.md-c6d91433.js", "css": ["assets/vendor-464ad708.css"], "js": ["pages/blog/unsung-heroes.md-c6d91433.js", "chunks/vendor-4edf8b19.js"], "styles": [] }, "src/routes/blog/trash-pandas.md": { "entry": "pages/blog/trash-pandas.md-eb83b1da.js", "css": ["assets/vendor-464ad708.css"], "js": ["pages/blog/trash-pandas.md-eb83b1da.js", "chunks/vendor-4edf8b19.js"], "styles": [] }, "src/routes/blog/tying-shoes.md": { "entry": "pages/blog/tying-shoes.md-d647f3b3.js", "css": ["assets/vendor-464ad708.css"], "js": ["pages/blog/tying-shoes.md-d647f3b3.js", "chunks/vendor-4edf8b19.js"], "styles": [] } };
+var metadata_lookup = { ".svelte-kit/build/components/layout.svelte": { "entry": "layout.svelte-1cfe2eb9.js", "css": ["assets/vendor-464ad708.css"], "js": ["layout.svelte-1cfe2eb9.js", "chunks/vendor-4edf8b19.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-76e73851.js", "css": ["assets/vendor-464ad708.css"], "js": ["error.svelte-76e73851.js", "chunks/vendor-4edf8b19.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-aa665ef6.js", "css": ["assets/pages/index.svelte-79be562b.css", "assets/vendor-464ad708.css", "assets/Header-635bd7ca.css"], "js": ["pages/index.svelte-aa665ef6.js", "chunks/preload-helper-ec9aa979.js", "chunks/vendor-4edf8b19.js", "chunks/Header-bad94e9c.js", "chunks/paths-bacddcca.js"], "styles": [] }, "src/routes/blog/__layout.svelte": { "entry": "pages/blog/__layout.svelte-ee868414.js", "css": ["assets/vendor-464ad708.css", "assets/Header-635bd7ca.css"], "js": ["pages/blog/__layout.svelte-ee868414.js", "chunks/vendor-4edf8b19.js", "chunks/Header-bad94e9c.js", "chunks/paths-bacddcca.js"], "styles": [] }, "src/routes/blog/goodwill-reservoir.md": { "entry": "pages/blog/goodwill-reservoir.md-b1f87713.js", "css": ["assets/vendor-464ad708.css"], "js": ["pages/blog/goodwill-reservoir.md-b1f87713.js", "chunks/vendor-4edf8b19.js"], "styles": [] }, "src/routes/blog/unsung-heroes.md": { "entry": "pages/blog/unsung-heroes.md-c6d91433.js", "css": ["assets/vendor-464ad708.css"], "js": ["pages/blog/unsung-heroes.md-c6d91433.js", "chunks/vendor-4edf8b19.js"], "styles": [] }, "src/routes/blog/trash-pandas.md": { "entry": "pages/blog/trash-pandas.md-eb83b1da.js", "css": ["assets/vendor-464ad708.css"], "js": ["pages/blog/trash-pandas.md-eb83b1da.js", "chunks/vendor-4edf8b19.js"], "styles": [] }, "src/routes/blog/tying-shoes.md": { "entry": "pages/blog/tying-shoes.md-d647f3b3.js", "css": ["assets/vendor-464ad708.css"], "js": ["pages/blog/tying-shoes.md-d647f3b3.js", "chunks/vendor-4edf8b19.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -7169,11 +7169,12 @@ var About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 var Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let current;
+  let single;
   let arrow = `${assets}/arrow.png`;
   let services = [
     {
       title: "Workflow Engineering",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/workflow.png`,
       paragraphs: [
         "We know how variable repair operations can be, but that won\u2019t slow us down. Our team will custom-engineer standardized workflows that give you extra capacity when you need it while upholding the consistent quality you expect",
         "Leave throughput bottlenecks behind with El Dorado's intuitive process. Go forward with faster training and less waste.",
@@ -7182,7 +7183,7 @@ var Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     },
     {
       title: "Staff Training",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/training.png`,
       paragraphs: [
         "Our clear, concise training materials have already been used to teach new workflows to hundreds of technicians worldwide.",
         "We'll also teach you how to build training programs for your technicians that will have them ready to go in days\u2014not months. You'll learn best practices for writing SOPs that managers can use to get techs up to speed fast and keep them working at a high level sustainably."
@@ -7190,7 +7191,7 @@ var Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     },
     {
       title: "Inventory Management",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/inventory.png`,
       paragraphs: [
         "Run out of parts? Bye bye repairs, hello backlog. We've seen it time and time again.",
         "By grouping tasks into stations and putting parts at their point of use, we'll make managing parts consumption easy for your technicians\u2014and precise usage data will make restocking simple for your managers. ",
@@ -7199,7 +7200,7 @@ var Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     },
     {
       title: "Data & Analytics",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/data.png`,
       paragraphs: [
         "Can't trust your ops data? Wish your metrics gave you more actionable insight? We can help.",
         "One of our greatest assets is our ability to work with teams to rethink key metrics and make data capture more reliable and replicable\u2014all with tools right off the shelf.",
@@ -7208,7 +7209,7 @@ var Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     },
     {
       title: "Software Development",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/software.png`,
       paragraphs: [
         "Workloads increase year over year. Are your tools keeping up? With our software development and project management expertise, we won't let you get left behind.",
         "Adopt a new approach with confidence. We'll help you quickly retool existing databases to improve UX for ops teams and add functionality for analysts.",
@@ -7217,7 +7218,7 @@ var Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     },
     {
       title: "Workshop Infrastructure",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/infrastructure.png`,
       paragraphs: [
         "Our catalog of custom workshop solutions will keep your operations lean and efficient. Get workstations, repair stands and materials carts built right for the job.",
         "Improve task times and repair quality with industrial-quality solutions sourced by our experts.",
@@ -7229,16 +7230,27 @@ var Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let sectionTwo = services.slice(2, 4);
   let sectionThree = services.slice(4, 6);
   let chunkArray = [sectionOne, sectionTwo, sectionThree];
+  let singleArray = services;
   current = chunkArray[0];
-  return `<div class="${"flex flex-col bg-lightGray w-full "}"><h1 class="${"sm:text-5xl text-3xl text-center font-rale mt-8"}">Our Services </h1>
+  single = singleArray[0];
+  return `<div class="${"flex flex-col bg-lightGray w-full sm:block hidden"}"><h1 class="${"sm:text-5xl text-3xl text-center font-rale mt-8"}">Our Services </h1>
   <div class="${"flex flex-wrap justify-evenly mt-8"}"><button class="${"w-8 left"}"><img${add_attribute("src", arrow, 0)} alt="${""}"></button>
-  
     ${each(current, ({ title: title2, image, paragraphs }) => `<div class="${"flex-1 flex flex-wrap flex-col bg-white shadow-md rounded max-w-2xl mx-4 "}"><img class="${"w-auto "}"${add_attribute("src", image, 0)} alt="${""}">
         <div class="${"p-4 mt-4"}"><p class="${"text-2xl font-quick mb-4 underline"}">${escape(title2)}</p>
           ${each(paragraphs, (paragraph) => `<p class="${"font-dm text-justify my-4"}">${escape(paragraph)}</p>`)}</div>
       </div>`)}
     <button class="${"w-8 right"}"><img class="${"transform -rotate-180"}"${add_attribute("src", arrow, 0)} alt="${""}"></button></div>
   <h2 class="${"flex-1 uppercase text-3xl text-center my-8"}">CANT FIND WHAT YOU\u2019RE LOOKING FOR? <span class="${"font-bold underline text-mustard"}">CONTACT US</span> TO EXPLORE MORE HANDS ON
+    PROJECTS
+  </h2></div>
+
+<div class="${"flex flex-col bg-lightGray w-full sm:hidden"}"><h1 class="${"sm:text-5xl text-3xl text-center font-rale mt-8"}">Our Services </h1>
+  <div class="${"flex flex-wrap justify-evenly mt-8"}"><button class="${"w-8 left"}"><img${add_attribute("src", arrow, 0)} alt="${""}"></button>
+      <div class="${"flex-1 flex flex-wrap flex-col bg-white shadow-md rounded max-w-2xl mx-2 "}"><img class="${"w-auto "}"${add_attribute("src", single.image, 0)} alt="${""}">
+        <div class="${"p-4 mt-4"}"><p class="${"text-2xl font-quick mb-4 underline"}">${escape(single.title)}</p>
+          ${each(single.paragraphs, (paragraph) => `<p class="${"font-dm text-justify my-4 text-sm"}">${escape(paragraph)}</p>`)}</div></div>
+    <button class="${"w-8 right"}"><img class="${"transform -rotate-180"}"${add_attribute("src", arrow, 0)} alt="${""}"></button></div>
+  <h2 class="${"flex-1 uppercase text-xl text-center my-8"}">CANT FIND WHAT YOU\u2019RE LOOKING FOR? <span class="${"font-bold underline text-mustard"}">CONTACT US</span> TO EXPLORE MORE HANDS ON
     PROJECTS
   </h2></div>`;
 });
@@ -7266,13 +7278,13 @@ var Blog = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 </div>`;
 });
 var Teams = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="${"flex flex-col sm:flex-row-reverse w-screen"}"><div class="${"flex-1 flex justify-center items-center mx-2"}"><h1 class="${"text-5xl mb-16 font-rale"}">Teams We&#39;ve Helped</h1></div>
+  return `<div class="${"flex flex-col sm:flex-row-reverse w-screen"}"><div class="${"flex-1 flex justify-center items-center mx-2"}"><h1 class="${"sm:text-5xl text-3xl mb-16 font-rale"}">Teams We&#39;ve Helped</h1></div>
     <div class="${"flex-1 flex flex-col justify-center items-center mx-2"}"><img src="${"team-logos.png"}" alt="${"logo"}"></div>
   </div>`;
 });
 var Contact = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="${"flex flex-col sm:flex-row w-full my-8"}"><div class="${"flex-1 flex flex-col justify-center items-center px-4 w-full"}"><div class="${"max-w-xl"}"><h1 class="${"text-3xl mb-16 sm:mb-4 font-rale"}">Contact Us</h1>
-      <h2 class="${"text-xl font-quick mb-8"}">Every micromobility company is unique! Schedule a one-hour session with
+      <h2 class="${"sm:text-xl text-lg font-quick mb-8"}">Every micromobility company is unique! Schedule a one-hour session with
         us to understand where we can help elevate your operation.
       </h2></div></div>
   <div class="${"flex-1 flex justify-center items-center px-4 w-full"}"><form class="${"flex flex-col w-full"}" action="${"https://formspree.io/f/xjvpoebg"}" method="${"POST"}"><input class="${"p-2 mb-2 bg-gray-50 rounded focus:outline-none"}" type="${"text"}" name="${"user_name"}" placeholder="${"Name"}">
@@ -7294,21 +7306,21 @@ var Us = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       <p class="${"mt-4 font-bold"}">Thomas</p></div></div>`;
 });
 var quote = '"This is not a process change\u2014this is a change of religion"';
-var headshot = "https://media-exp1.licdn.com/dms/image/C5603AQHUdMAvQBfxlA/profile-displayphoto-shrink_400_400/0/1557894325428?e=1635379200&v=beta&t=CAOyZ1n7oxGRiu-pC9qKNNYrf7XLbFTu7ES5qqyekd4";
+var headshot = "https://i.ibb.co/Qmnf9Jx/Mask-Group.png";
 var name = "Jon Just";
 var title$4 = "Head of Hardware - New Mobility at Uber";
 var Testimonial = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="${"flex flex-col items-center justify-items-center"}"><h1 class="${"text-4xl font-rale mt-12 text-center"}">&quot;${escape(quote)}&quot;</h1>
+  return `<div class="${"flex flex-col items-center justify-items-center"}"><h1 class="${"sm:text-4xl text-2xl font-rale mt-8 text-center"}">&quot;${escape(quote)}&quot;</h1>
     <img class="${"rounded-full w-1/12 my-2"}"${add_attribute("src", headshot, 0)} alt="${""}">
     <p class="${"my-2 font-dm text-xl"}">${escape(name)}</p>
-    <p class="${"mb-12 font-dm text-lg"}">${escape(title$4)}</p>
+    <p class="${"mb-8 font-dm text-lg"}">${escape(title$4)}</p>
   </div>`;
 });
 var Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="${"text-center"}">Made with \u2764\uFE0F in San Francisco - \xA9 2021 El Dorado Consulting</div>`;
+  return `<div class="${"text-center sm:text-base text-sm"}">Made with \u2764\uFE0F in San Francisco - \xA9 2021 El Dorado</div>`;
 });
 var css = {
-  code: ".wrapper.svelte-xz6lui{margin:0 auto;max-width:1820px}.section.svelte-xz6lui{zoom:30px;align-items:center;display:flex;height:100%;justify-content:center;width:100%}.bg-img.svelte-xz6lui{background-size:100%}.bg1-lg.svelte-xz6lui{background-image:url(https://i.ibb.co/gMDQkt2/bg1-lg.png);opacity:60%}.bg2-lg.svelte-xz6lui{background-image:url(https://i.ibb.co/yp1Bp1d/bg2-lg.png);opacity:60%}@media(max-width:640px){.bg1-lg.svelte-xz6lui{background-image:url(https://i.ibb.co/9HVwvtx/bg1-sm.png);opacity:60%}.bg2-lg.svelte-xz6lui{background-image:url(https://ibb.co/1v7YvWx);background-position-y:600px;opacity:60%}}",
+  code: ".wrapper.svelte-1a130aa{margin:0 auto;max-width:1820px}.section.svelte-1a130aa{zoom:30px;align-items:center;display:flex;height:100%;justify-content:center;width:100%}.bg-img.svelte-1a130aa{background-size:100%}.bg1-lg.svelte-1a130aa{background-image:url(https://i.ibb.co/gMDQkt2/bg1-lg.png);opacity:60%}.bg2-lg.svelte-1a130aa{background-image:url(https://i.ibb.co/yp1Bp1d/bg2-lg.png);opacity:60%}@media(max-width:640px){.bg1-lg.svelte-1a130aa{background-image:url(https://i.ibb.co/9HVwvtx/bg1-sm.png);opacity:60%}.bg2-lg.svelte-1a130aa{background-image:url(https://i.ibb.co/sst96xD/bg2-sm.png);background-position-y:600px;opacity:60%}}",
   map: null
 };
 var allPosts = { "./blog/goodwill-reservoir.md": () => Promise.resolve().then(function() {
@@ -7341,7 +7353,7 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   do {
     $$settled = true;
     $$rendered = `${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
-<div class="${"wrapper svelte-xz6lui"}">${validate_component(Parallax, "Parallax").$$render($$result, {
+<div class="${"wrapper svelte-1a130aa"}">${validate_component(Parallax, "Parallax").$$render($$result, {
       sections: 1.6,
       config: { stiffness: 1, damping: 1 },
       this: parallax
@@ -7352,19 +7364,19 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       }
     }, {
       default: () => `${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0.2, span: 1.6, offset: 0 }, {}, {
-        default: () => `<section class="${"section bg-img bg1-lg svelte-xz6lui"}"></section>`
+        default: () => `<section class="${"section bg-img bg1-lg svelte-1a130aa"}"></section>`
       })}
 		${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 1, offset: 0 }, {}, {
-        default: () => `<section class="${"section svelte-xz6lui"}">${validate_component(Banner, "Banner").$$render($$result, {}, {}, {})}</section>`
+        default: () => `<section class="${"section svelte-1a130aa"}">${validate_component(Banner, "Banner").$$render($$result, {}, {}, {})}</section>`
       })}
 		${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 0.6, offset: 1 }, {}, {
-        default: () => `<section class="${"section bg-mint svelte-xz6lui"}">${validate_component(About, "About").$$render($$result, {}, {}, {})}</section>`
+        default: () => `<section class="${"section bg-mint svelte-1a130aa"}">${validate_component(About, "About").$$render($$result, {}, {}, {})}</section>`
       })}`
     })}
-	<section class="${"section svelte-xz6lui"}">${validate_component(Us, "Us").$$render($$result, {}, {}, {})}</section>
-	<section class="${"section bg-white svelte-xz6lui"}">${validate_component(Services, "Services").$$render($$result, {}, {}, {})}</section>
+	<section class="${"section svelte-1a130aa"}">${validate_component(Us, "Us").$$render($$result, {}, {}, {})}</section>
+	<section class="${"section bg-white svelte-1a130aa"}">${validate_component(Services, "Services").$$render($$result, {}, {}, {})}</section>
 	${validate_component(Parallax, "Parallax").$$render($$result, {
-      sections: 1.2,
+      sections: 1.6,
       config: { stiffness: 1, damping: 1 },
       this: parallax
     }, {
@@ -7374,17 +7386,17 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       }
     }, {
       default: () => `${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0.25, span: 1, offset: 0 }, {}, {
-        default: () => `<section class="${"section bg-img bg2-lg svelte-xz6lui"}"></section>`
+        default: () => `<section class="${"section bg-img bg2-lg svelte-1a130aa"}"></section>`
       })}
-	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 0.6, offset: 0 }, {}, {
-        default: () => `<section class="${"section svelte-xz6lui"}">${validate_component(Blog, "Blog").$$render($$result, { blogs: posts }, {}, {})}</section>`
+	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 0.8, offset: 0 }, {}, {
+        default: () => `<section class="${"section svelte-1a130aa"}">${validate_component(Blog, "Blog").$$render($$result, { blogs: posts }, {}, {})}</section>`
       })}
-	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 0.6, offset: 0.6 }, {}, {
-        default: () => `<section class="${"section bg-white svelte-xz6lui"}">${validate_component(Teams, "Teams").$$render($$result, {}, {}, {})}</section>`
+	${validate_component(ParallaxLayer, "ParallaxLayer").$$render($$result, { rate: 0, span: 0.8, offset: 0.9 }, {}, {
+        default: () => `<section class="${"section bg-white svelte-1a130aa"}">${validate_component(Teams, "Teams").$$render($$result, {}, {}, {})}</section>`
       })}`
     })}
-	<section class="${"section bg-lightGray svelte-xz6lui"}">${validate_component(Testimonial, "Testimonial").$$render($$result, {}, {}, {})}</section>
-	<section class="${"section bg-white svelte-xz6lui"}">${validate_component(Contact, "Contact").$$render($$result, {}, {}, {})}</section>
+	<section class="${"section bg-lightGray svelte-1a130aa"}">${validate_component(Testimonial, "Testimonial").$$render($$result, {}, {}, {})}</section>
+	<section class="${"section bg-white svelte-1a130aa"}">${validate_component(Contact, "Contact").$$render($$result, {}, {}, {})}</section>
 	<section>${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</section>
 </div>`;
   } while (!$$settled);

@@ -5,7 +5,7 @@
   let services = [
     {
       title: "Workflow Engineering",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/workflow.png`,
       paragraphs: [
         "We know how variable repair operations can be, but that won’t slow us down. Our team will custom-engineer standardized workflows that give you extra capacity when you need it while upholding the consistent quality you expect",
         "Leave throughput bottlenecks behind with El Dorado's intuitive process. Go forward with faster training and less waste.",
@@ -14,7 +14,7 @@
     },
     {
       title: "Staff Training",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/training.png`,
       paragraphs: [
         "Our clear, concise training materials have already been used to teach new workflows to hundreds of technicians worldwide.",
         "We'll also teach you how to build training programs for your technicians that will have them ready to go in days—not months. You'll learn best practices for writing SOPs that managers can use to get techs up to speed fast and keep them working at a high level sustainably.",
@@ -22,7 +22,7 @@
     },
     {
       title: "Inventory Management",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/inventory.png`,
       paragraphs: [
         "Run out of parts? Bye bye repairs, hello backlog. We've seen it time and time again.",
         "By grouping tasks into stations and putting parts at their point of use, we'll make managing parts consumption easy for your technicians—and precise usage data will make restocking simple for your managers. ",
@@ -31,7 +31,7 @@
     },
     {
       title: "Data & Analytics",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/data.png`,
       paragraphs: [
         "Can't trust your ops data? Wish your metrics gave you more actionable insight? We can help.",
         "One of our greatest assets is our ability to work with teams to rethink key metrics and make data capture more reliable and replicable—all with tools right off the shelf.",
@@ -40,7 +40,7 @@
     },
     {
       title: "Software Development",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/software.png`,
       paragraphs: [
         "Workloads increase year over year. Are your tools keeping up? With our software development and project management expertise, we won't let you get left behind.",
         "Adopt a new approach with confidence. We'll help you quickly retool existing databases to improve UX for ops teams and add functionality for analysts.",
@@ -49,7 +49,7 @@
     },
     {
       title: "Workshop Infrastructure",
-      image: `${assets}/training.png`,
+      image: `${assets}/services/infrastructure.png`,
       paragraphs: [
         "Our catalog of custom workshop solutions will keep your operations lean and efficient. Get workstations, repair stands and materials carts built right for the job.",
         "Improve task times and repair quality with industrial-quality solutions sourced by our experts.",
@@ -92,8 +92,8 @@
 
 </script>
 
-<div class="flex flex-col bg-lightGray w-full hidden">
-  <h1 class = "sm:text-5xl text-3xl text-center font-rale mt-8"> Our singleArray </h1>
+<div class="flex flex-col bg-lightGray w-full sm:block hidden">
+  <h1 class = "sm:text-5xl text-3xl text-center font-rale mt-8"> Our Services </h1>
   <div class="flex flex-wrap justify-evenly mt-8">
   <button class="w-8 left" on:click={rotateBackward}>
     <img src={arrow} alt="">
@@ -119,18 +119,18 @@
   </h2>
 </div>
 
-<div class="flex flex-col bg-lightGray w-full">
-  <h1 class = "sm:text-5xl text-3xl text-center font-rale mt-8"> Our singleArray </h1>
+<div class="flex flex-col bg-lightGray w-full sm:hidden">
+  <h1 class = "sm:text-5xl text-3xl text-center font-rale mt-8"> Our Services </h1>
   <div class="flex flex-wrap justify-evenly mt-8">
   <button class="w-8 left" on:click={rotateBackwardTwo}>
     <img src={arrow} alt="">
   </button>
-      <div class=" flex-1 flex flex-wrap flex-col bg-white shadow-md rounded max-w-2xl mx-4 ">
+      <div class=" flex-1 flex flex-wrap flex-col bg-white shadow-md rounded max-w-2xl mx-2 ">
         <img class=" w-auto " src={single.image} alt="" />
         <div class="p-4 mt-4">
           <p class=" text-2xl font-quick mb-4 underline">{single.title}</p>
           {#each single.paragraphs as paragraph}
-            <p class="font-dm text-justify my-4">{paragraph}</p>
+            <p class="font-dm text-justify my-4 text-sm">{paragraph}</p>
           {/each}
         </div>
       </div>
@@ -138,7 +138,7 @@
       <img class="transform -rotate-180" src={arrow} alt="">
     </button>
   </div>
-  <h2 class=" flex-1 uppercase text-3xl text-center my-8">
+  <h2 class=" flex-1 uppercase text-xl text-center my-8">
     CANT FIND WHAT YOU’RE LOOKING FOR? <span class ="font-bold underline text-mustard">CONTACT US</span> TO EXPLORE MORE HANDS ON
     PROJECTS
   </h2>

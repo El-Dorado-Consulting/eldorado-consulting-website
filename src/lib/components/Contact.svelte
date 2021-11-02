@@ -2,7 +2,7 @@
   <div class="flex-1 flex flex-col justify-center items-center px-4 w-full">
     <div class="max-w-xl">
       <h1 class="text-3xl mb-16 sm:mb-4 font-rale">Contact Us</h1>
-      <h2 class="text-xl font-quick mb-8">
+      <h2 class="sm:text-xl text-lg font-quick mb-8">
         Every micromobility company is unique! Schedule a one-hour session with
         us to understand where we can help elevate your operation.
       </h2>

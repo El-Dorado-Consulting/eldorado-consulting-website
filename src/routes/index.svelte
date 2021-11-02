@@ -68,18 +68,18 @@
 	</section>
 	<Parallax
 	bind:this={parallax}
-	sections={1.2}
+	sections={1.6}
 	config={{ stiffness: 1, damping: 1 }}
 	>
 	<ParallaxLayer rate={0.25} span={1} offset={0}>
 		<section class="section bg-img bg2-lg" />
 	</ParallaxLayer>
-	<ParallaxLayer rate={0} span={.6} offset={0}>
+	<ParallaxLayer rate={0} span={.8} offset={0}>
 		<section class="section">
 			<Blog blogs={posts} on:message={scrollHandler} /> 
 		</section>
 	</ParallaxLayer>
-	<ParallaxLayer rate={0} span={.6} offset={.6}>
+	<ParallaxLayer rate={0} span={.8} offset={.9}>
 		<section class="section bg-white">
 			<Teams />
 		</section>
@@ -129,7 +129,7 @@
 		opacity: 60%;
 	}
 	.bg2-lg {
-		background-image: url("https://ibb.co/1v7YvWx");
+		background-image: url("https://i.ibb.co/sst96xD/bg2-sm.png");
 		background-position-y: 600px;
 		opacity: 60%;
 	}

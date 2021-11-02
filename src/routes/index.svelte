@@ -131,7 +131,7 @@
 	.bg2-lg {
 		background-image: url("https://i.ibb.co/sst96xD/bg2-sm.png");
 		background-position-y: 600px;
-		opacity: 60%;
+		opacity: 61%;
 	}
 
 	}

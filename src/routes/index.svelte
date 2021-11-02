@@ -27,7 +27,7 @@
 	import Teams from "$lib/components/Teams.svelte";
 	import Contact from "$lib/components/Contact.svelte";
 	import Us from "$lib/components/Us.svelte";
-	import Testimonial from "$lib/components/Testimonial.svelte";
+	import Testimony from "$lib/components/Testimony.svelte";
 	import Footer from "$lib/components/Footer.svelte";
 
 	export let posts;
@@ -86,7 +86,7 @@
 	</ParallaxLayer>
 </Parallax>
 	<section class="section bg-lightGray">
-		<Testimonial />
+		<Testimony />
 	</section>
 	<section class="section bg-white">
 		<Contact />

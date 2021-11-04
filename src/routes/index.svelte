@@ -1,21 +1,19 @@
-
 <script context="module">
-	const allPosts = import.meta.glob("./blog/*md")
-	let body = []
+	const allPosts = import.meta.glob("./blog/*md");
+	let body = [];
 	for (let path in allPosts) {
 		body.push(
-			allPosts[path]().then(({metadata}) => {
-				return {path, metadata}
+			allPosts[path]().then(({ metadata }) => {
+				return { path, metadata };
 			})
-		)
+		);
 	}
-	export const load = async() => {
-		const posts = await Promise.all(body)
+	export const load = async () => {
+		const posts = await Promise.all(body);
 		return {
-			props:{posts}
-		}
-	}
-
+			props: { posts },
+		};
+	};
 </script>
 
 <script>
@@ -28,68 +26,79 @@
 	import Blog from "$lib/components/Blog.svelte";
 	import Teams from "$lib/components/Teams.svelte";
 	import Contact from "$lib/components/Contact.svelte";
+	import Us from "$lib/components/Us.svelte";
+	import Testimony from "$lib/components/Testimony.svelte";
+	import Footer from "$lib/components/Footer.svelte";
 
-	export let posts
+	export let posts;
 	let parallax;
-	
-	function scrollHandler (event) {
-		console.log(event.detail.section)
-		parallax.scrollTo(event.detail.section)
-	}
-	
-</script>
 
+	function scrollHandler(event) {
+		console.log(event.detail.section);
+		parallax.scrollTo(event.detail.section);
+	}
+</script>
 
 <Header on:message={scrollHandler} />
 <div class="wrapper">
-<Parallax
+	<Parallax
+		bind:this={parallax}
+		sections={1.6}
+		config={{ stiffness: 1, damping: 1 }}
+	>
+		<ParallaxLayer rate={0.2} span={1.6} offset={0}>
+			<section class="section bg-img bg1-lg" />
+		</ParallaxLayer>
+		<ParallaxLayer rate={0} span={1} offset={0}>
+			<section class="section">
+				<Banner on:message={scrollHandler} />
+			</section>
+		</ParallaxLayer>
+		<ParallaxLayer rate={0} span={.6} offset={1}>
+			<section class="section bg-mint">
+				<About />
+			</section>
+		</ParallaxLayer>
+	</Parallax>
+	<section class="section">
+		<Us />
+	</section>
+	<section class="section bg-white">
+		<Services />
+	</section>
+	<Parallax
 	bind:this={parallax}
-	sections={6}
+	sections={1.6}
 	config={{ stiffness: 1, damping: 1 }}
->
-	<ParallaxLayer rate={0.2} span={1.5} offset={0}>
-		<section class="section bg-img bg1-lg" />
+	>
+	<ParallaxLayer rate={0.25} span={1.5} offset={0}>
+		<section class="section bg-img bg2-lg" />
 	</ParallaxLayer>
 	<ParallaxLayer rate={0} span={1} offset={0}>
 		<section class="section">
-			<Banner on:message={scrollHandler} />
+			<Blog blogs={posts} on:message={scrollHandler} /> 
 		</section>
 	</ParallaxLayer>
-	<ParallaxLayer rate={0} span={1} offset={1}>
-		<section class="section bg-mint">
-			<About />
-		</section>
-	</ParallaxLayer>
-	<ParallaxLayer rate={0} span={1} offset={2}>
+	<ParallaxLayer rate={0} span={.7} offset={1}>
 		<section class="section bg-white">
-			<Services />
-		</section>
-	</ParallaxLayer>
-	<ParallaxLayer rate={0.2} span={1.5} offset={3}>
-		<section class="section bg2-lg" />
-	</ParallaxLayer>
-	<ParallaxLayer rate={0} span={1} offset={3}>
-		<section class="section">
-			<Blog blogs={posts} />
-		</section>
-	</ParallaxLayer>
-	<ParallaxLayer rate={0} span={1} offset={4}>
-		<section  class="section bg-white">
 			<Teams />
 		</section>
 	</ParallaxLayer>
-	<ParallaxLayer rate={0} span={1} offset={5}>
-		<section class="section bg-white">
-			<Contact />
-		</section>
-	</ParallaxLayer>
 </Parallax>
+	<section class="section bg-lightGray">
+		<Testimony />
+	</section>
+	<section class="section bg-white">
+		<Contact />
+	</section>
+	<section>
+		<Footer />
+	</section>
 </div>
 
 <style>
-
-	.wrapper{
-		max-width: 1536px;
+	.wrapper {
+		max-width: 1820px;
 		margin: 0 auto;
 	}
 	.section {
@@ -107,10 +116,19 @@
 		background-image: url("https://i.ibb.co/gMDQkt2/bg1-lg.png");
 		opacity: 60%;
 	}
-
 	.bg2-lg {
 		background-image: url("https://i.ibb.co/yp1Bp1d/bg2-lg.png");
 		opacity: 60%;
 	}
 
+	@media (max-width: 640px) {
+		.bg1-lg {
+		background-image: url("https://i.ibb.co/9HVwvtx/bg1-sm.png");
+		opacity: 60%;
+	}
+	.bg2-lg {
+		background-image: none;
+	}
+
+	}
 </style>

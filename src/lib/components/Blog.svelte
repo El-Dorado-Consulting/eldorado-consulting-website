@@ -18,7 +18,7 @@
 
 <div class="flex flex-col w-full sm:flex-row ">
   <div class="flex-1 flex justify-center items-center mx-2 ">
-    <h1 class="text-5xl mb-16 font-rale p-4 rounded-lg">
+    <h1 class="sm:text-5xl sm:mb-16 text-3xl mb-2 font-rale p-4 rounded-lg">
       Our Thoughts
     </h1>
   </div>

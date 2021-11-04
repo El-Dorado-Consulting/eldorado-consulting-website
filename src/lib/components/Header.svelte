@@ -19,10 +19,10 @@
     </div>
 
     <nav class ="flex items-center font-quick mr-2 sm:mr-8 uppercase text-darkGray ">
-      <button on:click={() => sectionHandler(2)} class=" mx-2 sm:mx-8 sm:text-base text-sm uppercase font-bold hover:text-black">About</button>
-      <button on:click={() => sectionHandler(3)} class=" mx-2 sm:mx-8 sm:text-base text-sm uppercase font-bold hover:text-black">Services</button>
-      <button on:click={() => sectionHandler(4)} class=" mx-2 sm:mx-8 sm:text-base text-sm uppercase font-bold hover:text-black">Blog</button>
-      <button on:click={() => sectionHandler(6)} class=" mx-2 sm:mx-8 sm:text-base text-sm uppercase font-bold hover:text-black">Contact</button>
+      <button on:click={() => sectionHandler(-1.3)} class=" mx-2 sm:mx-8 sm:text-base text-sm uppercase font-bold hover:text-black">About</button>
+      <button on:click={() => sectionHandler(-.3)} class=" mx-2 sm:mx-8 sm:text-base text-sm uppercase font-bold hover:text-black">Services</button>
+      <button on:click={() => sectionHandler(1)} class=" mx-2 sm:mx-8 sm:text-base text-sm uppercase font-bold hover:text-black">Blog</button>
+      <button on:click={() => sectionHandler(3)} class=" mx-2 sm:mx-8 sm:text-base text-sm uppercase font-bold hover:text-black">Contact</button>
     </nav>
   </header>
 

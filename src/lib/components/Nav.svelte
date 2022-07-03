@@ -51,20 +51,10 @@
     <div class="hidden sm:flex justify-between items-center text-md" >
       <div>
         <ul class="flex pt-2 space-x-4">
-          <!---
-          <li>
-            <a href="/" class="px-4 py-2 hover:text-purple-400 transition-colors">About</a>
-          </li>
-                  -->
           <li>
             <a href="/blog" class="px-4 py-2 hover:text-purple-400 transition-colors">Blog</a>
           </li>
 
-          <li>
-            <a href={jobDescription} target="_blank" class="px-4 py-2 hover:text-purple-400 transition-colors"
-              >Open Roles</a
-            >
-          </li>
           <li>
             <a
               href="/contact"
@@ -92,10 +82,7 @@
         <a class="inline-block w-full h-full" href="/blog">Blog</a>
       </li>
       <li class="py-4 px-4 text-md border-b hover:bg-gray-50" >
-        <a class="inline-block w-full h-full" href={jobDescription} target="_blank">Open Roles</a>
-      </li>
-      <li class="py-4 px-4  text-md hover:bg-gray-50" >
-        <a class="inline-block w-full h-full" href="/contact">Contact Us</a>
+        <a class="inline-block w-full h-full" href="/blog">Contact</a>
       </li>
     </ul>
   </div>

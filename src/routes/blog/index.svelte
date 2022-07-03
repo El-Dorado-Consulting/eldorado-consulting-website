@@ -18,26 +18,26 @@
 
 <Nav />
 
-<section style="min-height:78vh" class="container flex flex-col mx-auto max-w-3xl my-12 px-4">
-	<h1 class="text-4xl font-lexend font-semibold">fragile blog</h1>
+<section style="min-height:78vh" class="container flex flex-col mx-auto max-w-3xl my-12 px-4 font-source">
+	<h1 class="text-4xl font-lexend font-semibold">Our Blog</h1>
 	<h2 class="text-xl text-purple-400 mt-6">
-		Ideas on how to to keep hardware-as-as-service moving forward
+		Tips tricks and insights from time spent on the floor
 	</h2>
-	<div class="flex flex-col">
+	<div class="flex flex-wrap justify-between">
 		{#each posts as post, i}
 			{#if !post.draft}
-			<a href={"/blog/" + post.id} class="w-full bg-gray-100 rounded-lg mt-6 transition-shadow hover:shadow-lg">
+			<a href={"/blog/" + post.id} class="w-5/12 bg-gray-100 rounded-lg mt-6 transition-shadow hover:shadow-lg">
 				<div class="h-56">
 					<img class=" object-cover w-full h-full rounded-t-lg" src={post.img} alt="" />
 				</div>
 				<div class="p-4">
 					<div class=" flex justify-between items-center">
-						<h2 class="p-0 py-2 font-lexend text-xl font-semibold text-purple-900">
+						<h2 class="p-0 py-2 font-lexend text-xl font-semibol">
 							{post.name}
 						</h2>
-						<p class="text-purple-900">{moment(post.date).format('MMMM d, YYYY')}</p>
+						<p class=">{moment(post.date).format('MMMM d, YYYY')}</p>
 					</div>
-					<p class="text-purple-400">{post.description}</p>
+					<p class=0">{post.description}</p>
 				</div>
 			</a>
 			{/if}

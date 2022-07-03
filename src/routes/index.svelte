@@ -51,9 +51,6 @@
           <p class="text-lg text-graphite mb-2">Resident floor sweeper. Tooling guru. Relentless driver of improvement in all domains. Six years of on-the-floor expierences</p>
           <img src="social.png" alt="">
         </div>
-
-
-
       </div>
     </div>
   </section>

@@ -52,7 +52,7 @@
       <div>
         <ul class="flex pt-2 space-x-4">
           <li>
-            <a href="/blog" class="px-4 py-2 hover:text-purple-400 transition-colors">Blog</a>
+            <a href="/blog" class="px-4 py-transition-colors">Blog</a>
           </li>
 
           <li>

@@ -6,7 +6,7 @@
 </script>
 
 {#if style === 'primary'}
-<a {href} class="bg-copper-400 text-white font-medium px-3 py-1.5 rounded border-2 border-copper-400 hover:border-copper-500 hover:bg-copper-500 transition-colors">
+<a {href} class="bg-mustard border-mustard-dark text-white font-medium px-3 py-1.5 rounded border-2 hover:bg-mustard-dark transition-colors">
   <slot></slot>
 </a>
 {/if}

@@ -14,7 +14,7 @@
 </script>
 
 <nav
-  class="bg-white border-gray-200 py-4 px-4 mx-auto font-medium font-inter max-w-7xl"
+  class="bg-white border-gray-200 py-4 px-4 mx-auto font-medium font-source max-w-7xl"
 >
   <div class="container w-full flex mx-auto justify-between">
     <a href="/" class="flex items-center">

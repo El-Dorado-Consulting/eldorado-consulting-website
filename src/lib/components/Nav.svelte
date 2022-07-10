@@ -14,7 +14,7 @@
 </script>
 
 <nav
-  class="bg-white border-gray-200 py-4 px-4 mx-auto font-medium font-source max-w-7xl"
+  class="bg-white border-gray-200 py-4 px-14 mx-auto font-medium font-source max-w-7xl "
 >
   <div class="container w-full flex mx-auto justify-between">
     <a href="/" class="flex items-center">
@@ -54,7 +54,9 @@
           <li>
             <a href="/blog" class="px-4 py-transition-colors">Blog</a>
           </li>
-          <li />
+          <li>
+            <a href="/blog" class="px-4 py-transition-colors">Services</a>
+          </li>
           <li>
             <a href="/Contact" class="px-4 py-transition-colors">Contact</a>
           </li>
@@ -69,13 +71,11 @@
       transition:slide
     >
       <ul>
-        <!---
-      <li class="py-4 px-4 text-md border-b hover:bg-gray-50" >
-        <a class="inline-block w-full h-full" href="/">About</a>
-      </li>
-    -->
         <li class="py-4 px-4 text-md border-b hover:bg-gray-50">
           <a class="inline-block w-full h-full" href="/blog">Blog</a>
+        </li>
+        <li class="py-4 px-4 text-md border-b hover:bg-gray-50">
+          <a class="inline-block w-full h-full" href="/services">Services</a>
         </li>
         <li class="py-4 px-4 text-md border-b hover:bg-gray-50">
           <a class="inline-block w-full h-full" href="/blog">Contact</a>

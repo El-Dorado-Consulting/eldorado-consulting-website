@@ -9,15 +9,16 @@ const config = {
       },
       colors: {
         mustard: {
-          DEFAULT: '#eeba2b',
-          dark: '#C99E2A'
-          
+          DEFAULT: '#FFBC00',
+          dark: '#C99E2A' 
         },
         mint:  {
           DEFAULT: '#25cec8'
         },
         graphite: {
-          DEFAULT: '#777777'
+          DEFAULT: '#777777',
+          dark: '#666666',
+          '50': '#F5F5F5'
         }
   
       }

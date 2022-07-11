@@ -15,7 +15,7 @@ const notion = new Client({
 async function addImages (posts: any) {
     const getImage = posts.map(async post => {
         const response:any = await notion.pages.retrieve({page_id:post.id})
-        post.img = response?.cover?.external?.url ?? ''
+        post.img = response?.cover?.external?.url  ?? ''
         return post 
     });
     let response = await Promise.all(getImage)
@@ -36,7 +36,6 @@ function parsePosts (data: any) {
     })
     return posts
 }
-
 
 export async function get() {
     try {

@@ -59,10 +59,10 @@
       </h3>
     </div>
     <div
-      class="text-graphite-dark text-xl font-semibold flex flex-wrap font-source"
+      class="text-graphite text-xl font-medium flex flex-wrap justify-evenly font-source"
     >
       <div
-        class="flex items-center py-3 px-4 border-2 rounded-lg bg-white mr-6 mt-6"
+        class="flex items-center py-2 px-3 border-2 rounded-lg bg-white mr-6 mt-6"
       >
         <img src="/icons/cost.png" width="40px" alt="" />
         <p class="ml-3">Lower maintenace cost</p>
@@ -167,15 +167,15 @@
     class="
       container
       mx-auto
-      max-w-4xl lg:max-w-5xl xl:max-w-6xl px-10 flex flex-col py-36 sm:py-16 lg:my-24 px-10
+      max-w-7xl mt-12 px-10 flex flex-col
     "
   >
-    <h2 class="font-rale font-semibold text-3xl sm:text-4x text-graphite">
+    <h2 class="font-rale font-semibold text-4xl text-graphite-dark">
       We've worked with some great teams
     </h2>
     <img class="mt-8 max-w-full" src="/team-logos.png" alt="" />
-    <div class="block w-full h-0.5 bg-gray-400 mt-12" />
-    <div>
+    <div class="block w-full h-0.5 bg-gray-400 mt-4" />
+    <div class='my-12'>
       <TestimonialBlock/>
     </div>
 

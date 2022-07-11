@@ -7,6 +7,7 @@
   export let i = 0
    
   $: hidden = (i === lastServiceIndex) ? false : true
+  console.log(hidden)
   
   const dispatch = createEventDispatcher();
 
@@ -19,13 +20,11 @@
 
 </script>
 
-<div class="max-w-xl pl-4 pt-4 border-l-4 border-mustard"class:border-white={hidden} transition:fade>
+<div class="max-w-xl pl-4 pt-4 border-l-4 "class:border-mustard={!hidden} transition:fade>
 <button 
   on:click={toggleHide}
   class="font-rale text-2xl text-graphite-dark">{title}</button>
-{#if !hidden }
   <p class="mt-4 font-source text-graphite" transition:fade>{content}</p>
-{/if}
 
 
 

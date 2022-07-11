@@ -3,16 +3,19 @@ import { Client} from "@notionhq/client"
 const NOTION_SECRET = process.env.NOTION_SECRET
 const DATABASE_ID = process.env.NOTION_DATABASE_ID
 
+console.log('id', DATABASE_ID)
+console.log('secret', NOTION_SECRET)
+
+
 // Initializing a client
 const notion = new Client({
     auth: NOTION_SECRET,
 })
 
-
 async function addImages (posts: any) {
     const getImage = posts.map(async post => {
         const response:any = await notion.pages.retrieve({page_id:post.id})
-        post.img = response.cover.external.url
+        post.img = response?.cover?.external?.url ?? ''
         return post 
     });
     let response = await Promise.all(getImage)
@@ -41,6 +44,7 @@ export async function get() {
         const result = await notion.databases.query({database_id:DATABASE_ID,})
         const parsedPosts = parsePosts(result)
         const posts = await addImages(parsedPosts)
+        console.log(posts)
         return {
             body: {
                 posts

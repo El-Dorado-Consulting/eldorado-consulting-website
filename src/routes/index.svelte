@@ -3,16 +3,19 @@
   import Button from "$lib/components/Button.svelte";
   import Footer from "$lib/components/Footer.svelte";
   import ServiceBlock from "$lib/components/ServiceBlock.svelte";
-  import services from "$lib/content/services.json"
+  import PersonCard from "$lib/components/PersonCard.svelte";
+  import TestimonialBlock from "$lib/components/TestimonialBlock.svelte";
 
-  export let id: number
+  // Content
+  import services from "$lib/content/services.json";
+  import team from "$lib/content/team.json";
 
-  function onMessage (e) {
-    console.log(e)
-    id = e.detail.id
+  export let id: number;
+
+  function onMessage(e) {
+    console.log(e);
+    id = e.detail.id;
   }
-
-
 </script>
 
 <Nav />
@@ -119,11 +122,11 @@
     <h2 class="text-4xl text-graphite-dark font-bold font-rale mb-4">
       Our Services
     </h2>
-    {#each services  as service, i }
+    {#each services as service, i}
       <ServiceBlock
         title={service.title}
         content={service.content}
-        lastServiceIndex = {id}
+        lastServiceIndex={id}
         {i}
         on:message={onMessage}
       />
@@ -131,20 +134,51 @@
   </section>
 </div>
 
-<!-- ____SECTION FOUR____ -->
+
+  <!-- SECTION FOUR -->
+  <div class="bg-graphite-50">
+    <section
+      class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14  py-10 sm:py-16"
+    >
+    <h2 class="text-4xl text-graphite-dark font-bold font-rale">About Us </h2>
+
+    <div class="flex flex-wrap justify-between mt-4">
+      <div class=" max-w-xl bg-mint rounded-lg p-6 text-white mt-4 flex flex-col justify-center">
+        <h2 class="text-2xl">We’re a team of experts who’ve spent years building operations from the ground-up across industry-leading companies.</h2>
+        <h3 class="text-lg mt-4"> We build lean operations for hardware companies looking to get the most out of their assets. Our team goes deep from day one and skips all the jargon. Sarah eats babies</h3>
+
+      </div>
+
+      {#each team as member}
+      <PersonCard
+      name={member.name}
+      description={member.description}
+      profileImage={member.profileImage}
+      socialLinks={member.socialLinks}
+      />
+      {/each}
+    </div>
+    </section>
+  </div>
+
+<!-- ____SECTION FIVE____ -->
 <div class="bg-white">
   <section
     class="
       container
       mx-auto
-      max-w-4xl lg:max-w-5xl xl:max-w-6xl px-10 flex flex-col items-center py-36 sm:py-16 lg:my-24 px-10
+      max-w-4xl lg:max-w-5xl xl:max-w-6xl px-10 flex flex-col py-36 sm:py-16 lg:my-24 px-10
     "
   >
     <h2 class="font-rale font-semibold text-3xl sm:text-4x text-graphite">
       We've worked with some great teams
     </h2>
-
     <img class="mt-8 max-w-full" src="/team-logos.png" alt="" />
+    <div class="block w-full h-0.5 bg-gray-400 mt-12" />
+    <div>
+      <TestimonialBlock/>
+    </div>
+
   </section>
 </div>
 <Footer />

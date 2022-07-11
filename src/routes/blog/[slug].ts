@@ -2,6 +2,7 @@ import { Client } from "@notionhq/client"
 import {NotionToMarkdown} from "notion-to-md";
 
 const NOTION_SECRET = process.env.NOTION_SECRET
+console.log(NOTION_SECRET)
 
 // Initializing a client
 const notion = new Client({
@@ -17,7 +18,7 @@ export async function get({ params }:any ) {
     notion.pages.retrieve({page_id:slug}), 
     n2m.pageToMarkdown(slug)
   ]);
-
+  console.log(response)
   const image = response.cover?.external.url
   const title = response.properties?.Name.title[0]?.text?.content
   const date = response.properties?.Date.date.start

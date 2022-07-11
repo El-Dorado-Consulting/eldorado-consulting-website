@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Erik Battista",
+    "description":"When was the last time you enjoyed filling out a form? Let us build a data collection system for your hardware service that makes entering info quick, intuitive and painless for your employees, while returning high-fidelity insights into your operations.",
+    "profileImage": "/battista.png",
+    "socialLinks": {
+      "email": "@erikbattista@eldoradoconsulting.io",
+      "phone": "+1 (415) 694-8267",
+      "linkedin": "https://www.linkedin.com/in/erikbattista/",
+      "twitter": "https://www.twitter.com"
+
+    }
+  },
+  {
+    "name": "Sarah Salem",
+    "description":"When was the last time you enjoyed filling out a form? Let us build a data collection system for your hardware service that makes entering info quick, intuitive and painless for your employees, while returning high-fidelity insights into your operations.",
+    "profileImage": "/battista.png",
+    "socialLinks": {
+      "email": "@erikbattista@eldoradoconsulting.io",
+      "phone": "+1 (415) 694-8267",
+      "linkedin": "https://www.linkedin.com/in/sarah-salem-88247042/",
+      "twitter": "https://www.twitter.com"
+
+    }
+  },
+  {
+    "name": "Thomas Kreek ",
+    "description":"When was the last time you enjoyed filling out a form? Let us build a data collection system for your hardware service that makes entering info quick, intuitive and painless for your employees, while returning high-fidelity insights into your operations.",
+    "profileImage": "/battista.png",
+    "socialLinks": {
+      "email": "@erikbattista@eldoradoconsulting.io",
+      "phone": "+1 (415) 694-8267",
+      "linkedin": "https://www.linkedin.com/in/erikbattista/",
+      "twitter": "https://www.twitter.com"
+
+    }
+  }
+]

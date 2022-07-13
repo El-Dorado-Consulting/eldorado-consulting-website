@@ -27,7 +27,7 @@
   >
     <div class="flex-1">
       <h1
-        class="text-4xl sm:text-4xl  max-w-2xl font-rale font-bold text-graphite-dark"
+        class="text-4xl sm:text-5xl max-w-2xl font-rale font-bold text-graphite-dark"
       >
         Hardware operations & process engineering specialists
       </h1>
@@ -42,7 +42,7 @@
       </div>
     </div>
     <div class="flex-1 flex justify-end py-8 pl-8">
-      <img class="max-w-full py-8" src="/banner-image.png" alt="" />
+      <img class="py-8 max-w-sm" src="/banner-picture.png" alt="" />
     </div>
   </section>
 </div>
@@ -50,67 +50,61 @@
 <!-- SECTION TWO -->
 <div class="bg-graphite-50">
   <section
-    class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14  py-10 sm:py-16"
+    class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14 py-10 sm:py-16"
   >
-    <div class="flex items-end font-source text-white mb-4">
+    <div class="font-source text-white mb-4 text-center">
       <h2 class="text-4xl text-graphite-dark font-bold font-rale">Why Us</h2>
-      <h3 class="text-2xl text-graphite font-rale text-bold ml-4">
-        Operations are hard. Acronyms only help so much...
+      <h3 class="text-2xl text-graphite font-source text-bold mt-4">
+        Building a hardware service is hard. We make running them easy. 
       </h3>
     </div>
     <div
-      class="text-graphite text-xl font-medium flex flex-wrap justify-evenly font-source"
+      class="text-graphite text-xl font-medium flex flex-wrap justify-center font-source"
     >
       <div
-        class="flex items-center py-2 px-3 border-2 rounded-lg bg-white mr-6 mt-6"
+        class="flex items-center py-2 px-3 rounded-lg bg-white mr-6 mt-6"
       >
         <img src="/icons/cost.png" width="40px" alt="" />
         <p class="ml-3">Lower maintenace cost</p>
       </div>
       <div
-        class="flex items-center py-2 px-3 border-2 rounded-lg bg-white mr-6 mt-6"
+        class="flex items-center py-2 px-3 rounded-lg bg-white mr-6 mt-6"
       >
-        <img src="/icons/cost.png" width="40px" alt="" />
-        <p class="ml-3">Better inventory tracking</p>
-      </div>
-      <div
-        class="flex items-center py-2 px-3 border-2 rounded-lg bg-white mr-6 mt-6"
-      >
-        <img src="/icons/cost.png" width="40px" alt="" />
+        <img src="/icons/training.png" width="40px" alt="" />
         <p class="ml-3">Streamlined staff training</p>
       </div>
       <div
-        class="flex items-center py-2 px-3 border-2 rounded-lg bg-white mr-6 mt-6"
+        class="flex items-center py-2 px-3 rounded-lg bg-white mr-6 mt-6"
       >
-        <img src="/icons/cost.png" width="40px" alt="" />
+        <img src="/icons/data.png" width="40px" alt="" />
         <p class="ml-3">Intuitive data insights</p>
       </div>
       <div
-        class="flex items-center py-2 px-3 border-2 rounded-lg bg-white mr-6 mt-6"
+        class="flex items-center py-2 px-3  rounded-lg bg-white mr-6 mt-6"
       >
-        <img src="/icons/cost.png" width="40px" alt="" />
+        <img src="/icons/asset.png" width="40px" alt="" />
         <p class="ml-3">Increased asset utilization</p>
       </div>
       <div
-        class="flex items-center py-2 px-3 border-2 rounded-lg bg-white mr-6 mt-6"
+        class="flex items-center py-2 px-3  rounded-lg bg-white mr-6 mt-6"
       >
-        <img src="/icons/cost.png" width="40px" alt="" />
+        <img src="/icons/quality.png" width="40px" alt="" />
         <p class="ml-3">Improved quality control</p>
       </div>
     </div>
     <div class="block w-full h-0.5 bg-gray-400 mt-12" />
     <div class="flex justify-evenly mt-8">
       <div class="flex flex-col items-center font-rale">
-        <h2 class="text-7xl font-bold text-mint">2x</h2>
-        <h3>Time to repair</h3>
+        <h2 class="text-7xl font-semibold text-mint">80%</h2>
+        <h3 class="font-source text-graphite font-semibold text-lg">Throughput increase</h3>
       </div>
       <div class="flex flex-col items-center font-rale">
-        <h2 class="text-7xl font-bold text-mint">2x</h2>
-        <h3>Time to repair</h3>
+        <h2 class="text-7xl font-semibold text-mint">2x</h2>
+        <h3 class="font-source text-graphite font-semibold text-lg">Fewer breaks</h3>
       </div>
       <div class="flex flex-col items-center font-rale">
-        <h2 class="text-7xl font-bold text-mint">2x</h2>
-        <h3>Time to repair</h3>
+        <h2 class="text-7xl font-semibold text-mint">30%</h2>
+        <h3 class="font-source text-graphite font-semibold text-lg">Supply chain savings</h3>
       </div>
     </div>
   </section>
@@ -141,14 +135,11 @@
       class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14  py-10 sm:py-16"
     >
     <h2 class="text-4xl text-graphite-dark font-bold font-rale">About Us </h2>
+    <h2 class="text-2xl mt-4 text-graphite">Seasoned experts from industry-leading companies. No BS. All hustle. </h2>
+    <h3 class="text-lg mt-4 text-graphite">We build lean operations for hardware businesses looking to get the most out of their assets. Our team goes deep from day one and skips all the jargon.</h3>
+
 
     <div class="flex flex-wrap justify-between mt-4">
-      <div class=" max-w-xl bg-mint rounded-lg p-6 text-white mt-4 flex flex-col justify-center">
-        <h2 class="text-2xl">We’re a team of experts who’ve spent years building operations from the ground-up across industry-leading companies.</h2>
-        <h3 class="text-lg mt-4"> We build lean operations for hardware companies looking to get the most out of their assets. Our team goes deep from day one and skips all the jargon. Sarah eats babies</h3>
-
-      </div>
-
       {#each team as member}
       <PersonCard
       name={member.name}
@@ -170,10 +161,10 @@
       max-w-7xl mt-12 px-10 flex flex-col
     "
   >
-    <h2 class="font-rale font-semibold text-4xl text-graphite-dark">
+    <h2 class="font-rale font-semibold text-4xl text-graphite-dark text-center">
       We've worked with some great teams
     </h2>
-    <img class="mt-8 max-w-full" src="/team-logos.png" alt="" />
+    <img class="mt-8 w-10/12 mx-auto" src="/team-logos.png" alt="" />
     <div class="block w-full h-0.5 bg-gray-400 mt-4" />
     <div class='my-12'>
       <TestimonialBlock/>

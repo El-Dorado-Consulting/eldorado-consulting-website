@@ -13,7 +13,9 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 
 
 export async function get({ params }:any ) {
-  const slug = params.id
+  console.log('params', params)
+  const slug = params.slug
+  console.log("slug", slug)
   const[response, mdblocks] = await Promise.all([
     notion.pages.retrieve({page_id:slug}), 
     n2m.pageToMarkdown(slug)

@@ -1,4 +1,3 @@
-hello world
 <script lang="ts">
 	import moment from 'moment'
 	import { marked } from 'marked';
@@ -19,14 +18,14 @@ hello world
 
 <Nav/>
 
-<section class="container flex flex-col mx-auto max-w-3xl justify-center px-4 mt-16">
+<section class="container flex flex-col mx-auto max-w-3xl justify-center px-4 mt-16 text-graphite">
 	<div class="h-56">
 		<img class=" object-cover w-full h-full " src={image} alt="" />
 	</div>
-	<p class="mt-6 text-purple-900 text-lg">{moment(date).format('MMMM d, YYYY')}</p>
-	<h1 class="font-lexend font-semibold mt-2">{title}</h1>
+	<p class="mt-6 text-lg">{moment(date).format('MMMM d, YYYY')}</p>
+	<h1 class="font-rale font-semibold text-3xl mt-2">{title}</h1>
 	<!-- https://tailwindcss.com/docs/typography-plugin for more markdown utility css -->
-	<div class="mt-4 prose prose-purple-400 prose-strong:text-purple-400 prose-a:text-copper-400 prose-h2:text-purple-400 prose-p:text-purple-400 prose-h3:text-purple-900">
+	<div class="mt-4 prose prose-gray">
 		{@html html}
 	</div>
 <div class="my-8">

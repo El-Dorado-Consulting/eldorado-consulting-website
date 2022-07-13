@@ -121,6 +121,7 @@
         title={service.title}
         content={service.content}
         lastServiceIndex={id}
+        image = {service.image}
         {i}
         on:message={onMessage}
       />

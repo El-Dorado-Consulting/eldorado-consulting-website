@@ -2,26 +2,26 @@
   {
     "title": "Turnkey Operations Management" ,
     "content": "You’ve gotten your business off the ground; time to build out your operations. Lean on our deep experience running hardware services to set your team on the right path, with a clear plan for your next phase of growth." ,
-    "image": ""
+    "image": "/turnkey.png"
   },
   {
     "title": "Subscription Service Buildout" ,
     "content": "Want recurring cash flow? We can partner with your team to build first-class subscription services for your hardware, with software and operations solutions that cover all stages of the asset lifecycle." ,
-    "image": ""
+    "image": "/service.png"
   },
   {
     "title": "Repair Center Transformation" ,
     "content": "Your hardware business has grown; so has your repair backlog. We can improve your service operations’ quality and throughput with lean workflow techniques that can double your productivity.",
-    "image": ""
+    "image": "/operations.png"
   },
   {
     "title": "Rapid Training and Onboarding",
     "content": "It’s hard to find good workers at a competitive rate these days. We can provide a documentation and training framework that lets your hardware service teach anyone to be an expert on maintaining your product." ,
-    "image": ""
+    "image": "/training.png"
   },
   {
     "title": "Frustration-Free Service Data" ,
     "content": "When was the last time you enjoyed filling out a form? Let us build a data collection system for your hardware service that makes entering info quick, intuitive and painless for your employees, while returning high-fidelity insights into your operations." ,
-    "image": ""
+    "image": "/analytics.png"
   }
 ]

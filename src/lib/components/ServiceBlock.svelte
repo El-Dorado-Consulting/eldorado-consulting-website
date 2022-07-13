@@ -22,9 +22,9 @@
   }
 </script>
 
-<div class="w-full mt-6 flex items-center" transition:fade >
+<div class="w-full mt-6 flex sm:flex-row flex-col items-center" transition:fade >
   {#if !hidden}
-    <div class=" block h-72 border-l-4 border-mustard" />
+    <div class="hidden sm:block h-72 border-l-4 border-mustard " />
   {/if}
 
   <div class="w-full max-w-lg ml-4">
@@ -38,7 +38,7 @@
 
   <div class="w-full flex justify-center">
     {#if !hidden}
-      <img class="max-w-md" src={image} transition:fade alt="" />
+      <img class="sm:max-w-md max-w-sm" src={image} transition:fade alt="" />
     {/if}
   </div>
 </div>

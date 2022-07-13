@@ -23,7 +23,7 @@
 <!-- ____SECTION ONE____ -->
 <div class="bg-white">
   <section
-    class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14 sm:flex-row items-center justify-between"
+    class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14 sm:flex-row items-center justify-between mt-12 sm:mt-0"
   >
     <div class="flex-1">
       <h1
@@ -41,8 +41,8 @@
         <Button href="/blog" style="secondary">Learn More</Button>
       </div>
     </div>
-    <div class="flex-1 flex justify-end py-8 pl-8">
-      <img class="py-8 max-w-sm" src="/banner-picture.png" alt="" />
+    <div class="flex-1 flex justify-end py-8 pl-8 self-end">
+      <img class="py-8 sm:max-w-sm max-w-xs" src="/banner-picture.png" alt="" />
     </div>
   </section>
 </div>
@@ -59,7 +59,7 @@
       </h3>
     </div>
     <div
-      class="text-graphite text-xl font-medium flex flex-wrap justify-center font-source"
+      class="text-graphite text-xl font-medium flex flex-wrap justify-start sm:justify-center font-source"
     >
       <div
         class="flex items-center py-2 px-3 rounded-lg bg-white mr-6 mt-6"
@@ -93,17 +93,17 @@
       </div>
     </div>
     <div class="block w-full h-0.5 bg-gray-400 mt-12" />
-    <div class="flex justify-evenly mt-8">
+    <div class="flex justify-between sm:justify-evenly mt-8">
       <div class="flex flex-col items-center font-rale">
-        <h2 class="text-7xl font-semibold text-mint">80%</h2>
+        <h2 class="sm:text-7xl text-5xl font-semibold text-mint">80%</h2>
         <h3 class="font-source text-graphite font-semibold text-lg">Throughput increase</h3>
       </div>
       <div class="flex flex-col items-center font-rale">
-        <h2 class="text-7xl font-semibold text-mint">2x</h2>
+        <h2 class="sm:text-7xl text-5xl font-semibold text-mint">2x</h2>
         <h3 class="font-source text-graphite font-semibold text-lg">Fewer breaks</h3>
       </div>
       <div class="flex flex-col items-center font-rale">
-        <h2 class="text-7xl font-semibold text-mint">30%</h2>
+        <h2 class="sm:text-7xl text-5xl font-semibold text-mint">30%</h2>
         <h3 class="font-source text-graphite font-semibold text-lg">Supply chain savings</h3>
       </div>
     </div>
@@ -162,10 +162,10 @@
       max-w-7xl mt-12 px-10 flex flex-col
     "
   >
-    <h2 class="font-rale font-semibold text-4xl text-graphite-dark text-center">
+    <h2 class="font-rale font-semibold text-3xl text-graphite text-center">
       We've worked with some great teams
     </h2>
-    <img class="mt-8 w-10/12 mx-auto" src="/team-logos.png" alt="" />
+    <img class="mt-8 w-full sm:w-10/12 mx-auto" src="/team-logos.png" alt="" />
     <div class="block w-full h-0.5 bg-gray-400 mt-4" />
     <div class='my-12'>
       <TestimonialBlock/>

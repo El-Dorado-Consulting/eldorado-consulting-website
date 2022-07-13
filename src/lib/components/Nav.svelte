@@ -14,11 +14,11 @@
 </script>
 
 <nav
-  class="bg-white border-gray-200 py-4 px-14 mx-auto font-medium font-source max-w-7xl "
+  class="bg-white border-gray-200 py-4 px-6 sm:px-14 mx-auto font-medium font-source max-w-7xl "
 >
   <div class="container w-full flex mx-auto justify-between">
     <a href="/" class="flex items-center">
-      <img {src} class="mr-3 h-14" alt="Fragile Logo" />
+      <img {src} class="mr-3 h-12" alt="Fragile Logo" />
     </a>
     <button
       on:click={handleClick}
@@ -48,7 +48,7 @@
         /></svg
       >
     </button>
-    <div class="hidden sm:flex justify-between items-center text-md">
+    <div class="hidden sm:flex justify-between items-center text-md text-graphite">
       <div>
         <ul class="flex pt-2 space-x-4">
           <li>

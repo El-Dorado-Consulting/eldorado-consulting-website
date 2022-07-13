@@ -17,7 +17,7 @@
 </script>
 
 <Nav />
-<section style="min-height:78vh" class="container flex flex-col mx-auto max-w-6xl my-12 px-4 font-source text-center  bg-graphite-50">
+<section style="min-height:78vh" class="container flex flex-col mx-auto max-w-6xl py-12 px-4 font-source text-center  bg-graphite-50">
 	<h1 class="text-4xl font-lexend font-semibold">Our Blog</h1>
 	<h2 class="text-x mt-6">
 		Tips tricks and insights from time spent on the floor
@@ -25,9 +25,9 @@
 	<div class="flex flex-wrap justify-evenly">
 		{#each posts as post, i}
 			{#if !post.draft}
-			<a href={"/blog/" + post.id} class="w-5/12 bg-white rounded-lg mt-10 transition-shadow hover:shadow-lg border-2 text-left">
+			<a href={"/blog/" + post.id} class="max-w-lg bg-white rounded-lg mt-10 transition-shadow hover:shadow-lg border-2 text-left">
 				<div class="h-56">
-					<img class=" object-cover w-full h-full rounded-t-lg" src={post.img} alt="" />
+					<img class=" object-cover w-full h-full rounded-t-md" src={post.img} alt="" />
 				</div>
 				<div class="p-4">
 					<div class=" flex flex-col justify-between">

@@ -9,9 +9,9 @@
   <div class="mx-8">
     <img width=150 src={profileImage} alt="" />
   </div>
-  <div class="flex flex-col justify-center">
-    <h1 class="text-2xl text-graphite font-rale font-semibold">{testimonial}</h1>
-    <h2>{name}</h2>
+  <div class="flex flex-col justify-center font-source text-graphite">
+    <h1 class="text-3xl text-graphite-dark font-rale font-semibold">{testimonial}</h1>
+    <h2 class=" mt-4 text-xl">{name}</h2>
     <h3>{role}</h3>
   </div>
 </div>

@@ -1,5 +1,7 @@
 <script>
-  import { fade } from "svelte/transition";
+  import { slide, fade } from "svelte/transition";
+  import { flip } from 'svelte/animate';
+
   import { createEventDispatcher } from "svelte";
   export let title = "";
   export let content = "";
@@ -20,19 +22,23 @@
   }
 </script>
 
-<div class="max-w-xl pl-4 pt-4 flex" class:border-l-4={!hidden} transition:fade>
-  <div class="flex-1">
-    <button on:click={toggleHide} class="font-rale text-2xl text-graphite-dark w-full"
+<div class="w-full mt-6 flex items-center" transition:fade >
+  {#if !hidden}
+    <div class=" block h-72 border-l-4 border-mustard" />
+  {/if}
+
+  <div class="w-full max-w-lg ml-4">
+    <button on:click={toggleHide} class="font-rale text-2xl text-graphite-dark"
       >{title}</button
     >
     {#if !hidden}
-      <p class="mt-4 font-source text-graphite" transition:fade>{content}</p>
+      <p  in:slide out:fade={{duration:400}} class="mt-4 font-source text-graphite"> {content}</p>
     {/if}
   </div>
 
-  <div class="flex-1">
+  <div class="w-full flex justify-center">
     {#if !hidden}
-      <img src={image} alt="" />
+      <img class="max-w-md" src={image} transition:fade alt="" />
     {/if}
   </div>
 </div>

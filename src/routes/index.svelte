@@ -27,7 +27,7 @@
   >
     <div class="flex-1">
       <h1
-        class="text-4xl sm:text-5xl max-w-2xl font-rale font-bold text-graphite-dark"
+        class="text-3xl sm:text-4xl max-w-2xl font-rale font-bold text-graphite-dark"
       >
         Hardware operations & process engineering specialists
       </h1>
@@ -136,8 +136,8 @@
       class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14  py-10 sm:py-16"
     >
     <h2 class="text-4xl text-graphite-dark font-bold font-rale">About Us </h2>
-    <h2 class="text-2xl mt-4 text-graphite">Seasoned experts from industry-leading companies. No BS. All hustle. </h2>
-    <h3 class="text-lg mt-4 text-graphite">We build lean operations for hardware businesses looking to get the most out of their assets. Our team goes deep from day one and skips all the jargon.</h3>
+    <h2 class="text-2xl mt-4 text-graphite">Seasoned experts from industry-leading companies. <br> No BS. All hustle. </h2>
+    <h3 class=" max-w-2xl text-lg mt-4 text-graphite">We build lean operations for hardware businesses looking to get the most out of their assets. Our team goes deep from day one and skips all the jargon.</h3>
 
 
     <div class="flex flex-wrap justify-between mt-4">

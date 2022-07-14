@@ -25,7 +25,7 @@
 <!-- ____SECTION ONE____ -->
 <div class="bg-white">
   <section
-    class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14 sm:flex-row items-center justify-between mt-12 sm:mt-0"
+    class="container flex flex-col mx-auto max-w-7xl px-4 md:px-14 sm:flex-row items-center justify-between mt-12 sm:mt-0"
   >
     <div class="flex-1">
       <h1
@@ -52,7 +52,7 @@
 <!-- SECTION TWO -->
 <div class="bg-graphite-50">
   <section
-    class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14 py-10 sm:py-16"
+    class="container flex flex-col mx-auto max-w-7xl px-4 md:px-14 py-10 sm:py-16"
   >
     <div class="font-source text-white mb-4 text-center">
       <h2 class="text-4xl text-graphite-dark font-bold font-rale">Why Us</h2>
@@ -88,19 +88,19 @@
     <div class="flex justify-between sm:justify-evenly mt-8">
       <div class="flex flex-col items-center font-rale">
         <h2 class="sm:text-7xl text-5xl font-semibold text-mint">80%</h2>
-        <h3 class="font-source text-graphite font-semibold text-lg">
+        <h3 class="font-source text-graphite font-semibold sm:text-lg">
           Throughput increase
         </h3>
       </div>
       <div class="flex flex-col items-center font-rale">
         <h2 class="sm:text-7xl text-5xl font-semibold text-mint">2x</h2>
-        <h3 class="font-source text-graphite font-semibold text-lg">
+        <h3 class="font-source text-graphite font-semibold sm:text-lg">
           Fewer breaks
         </h3>
       </div>
       <div class="flex flex-col items-center font-rale">
         <h2 class="sm:text-7xl text-5xl font-semibold text-mint">30%</h2>
-        <h3 class="font-source text-graphite font-semibold text-lg">
+        <h3 class="font-source text-graphite font-semibold sm:text-lg">
           Supply chain savings
         </h3>
       </div>
@@ -110,7 +110,7 @@
 
 <!-- SECTON THREE -->
 <div class="bg-white transition-all">
-  <section class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14 my-8">
+  <section class="container flex flex-col mx-auto max-w-7xl px-4 md:px-14 my-8">
     <h2 class="text-4xl text-graphite-dark font-bold font-rale mb-4">
       Our Services
     </h2>
@@ -132,7 +132,7 @@
 <!-- SECTION FOUR -->
 <div class="bg-graphite-50">
   <section
-    class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14  py-10 sm:py-16"
+    class="container flex flex-col mx-auto max-w-7xl px-4 md:px-14  py-10 sm:py-16"
   >
     <h2 class="text-4xl text-graphite-dark font-bold font-rale">About Us</h2>
     <h2 class="text-2xl mt-4 text-graphite">

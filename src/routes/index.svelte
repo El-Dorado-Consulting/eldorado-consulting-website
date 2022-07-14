@@ -6,6 +6,8 @@
   import PersonCard from "$lib/components/PersonCard.svelte";
   import TestimonialBlock from "$lib/components/TestimonialBlock.svelte";
 
+  import { flip } from "svelte/animate";
+
   // Content
   import services from "$lib/content/services.json";
   import team from "$lib/content/team.json";
@@ -29,7 +31,7 @@
       <h1
         class="text-3xl sm:text-4xl max-w-2xl font-rale font-bold text-graphite-dark"
       >
-        Hardware operations & process engineering specialists
+        Hardware operations &<br /> process engineering specialists
       </h1>
       <h2
         class="text-xl mt-8 sm:text-xl sm:mt-8 text-graphite max-w-2xlfont-semibold"
@@ -42,7 +44,7 @@
       </div>
     </div>
     <div class="flex-1 flex justify-end py-8 pl-8 self-end">
-      <img class="py-8 sm:max-w-sm max-w-xs" src="/banner-picture.png" alt="" />
+      <img class="py-8 sm:max-w-xs max-w-xs" src="/banner-picture.png" alt="" />
     </div>
   </section>
 </div>
@@ -55,39 +57,29 @@
     <div class="font-source text-white mb-4 text-center">
       <h2 class="text-4xl text-graphite-dark font-bold font-rale">Why Us</h2>
       <h3 class="text-2xl text-graphite font-source text-bold mt-4">
-        Building a hardware service is hard. We make running them easy. 
+        Building a hardware service is hard. We make running them easy.
       </h3>
     </div>
     <div
       class="text-graphite text-xl font-medium flex flex-wrap justify-start sm:justify-center font-source"
     >
-      <div
-        class="flex items-center py-2 px-3 rounded-lg bg-white mr-6 mt-6"
-      >
+      <div class="flex items-center py-2 px-3 rounded-lg bg-white mr-6 mt-6">
         <img src="/icons/cost.png" width="40px" alt="" />
-        <p class="ml-3">Lower maintenace cost</p>
+        <p class="ml-3">Lower maintenance costs</p>
       </div>
-      <div
-        class="flex items-center py-2 px-3 rounded-lg bg-white mr-6 mt-6"
-      >
+      <div class="flex items-center py-2 px-3 rounded-lg bg-white mr-6 mt-6">
         <img src="/icons/training.png" width="40px" alt="" />
         <p class="ml-3">Streamlined staff training</p>
       </div>
-      <div
-        class="flex items-center py-2 px-3 rounded-lg bg-white mr-6 mt-6"
-      >
+      <div class="flex items-center py-2 px-3 rounded-lg bg-white mr-6 mt-6">
         <img src="/icons/data.png" width="40px" alt="" />
         <p class="ml-3">Intuitive data insights</p>
       </div>
-      <div
-        class="flex items-center py-2 px-3  rounded-lg bg-white mr-6 mt-6"
-      >
+      <div class="flex items-center py-2 px-3  rounded-lg bg-white mr-6 mt-6">
         <img src="/icons/asset.png" width="40px" alt="" />
         <p class="ml-3">Increased asset utilization</p>
       </div>
-      <div
-        class="flex items-center py-2 px-3  rounded-lg bg-white mr-6 mt-6"
-      >
+      <div class="flex items-center py-2 px-3  rounded-lg bg-white mr-6 mt-6">
         <img src="/icons/quality.png" width="40px" alt="" />
         <p class="ml-3">Improved quality control</p>
       </div>
@@ -96,62 +88,74 @@
     <div class="flex justify-between sm:justify-evenly mt-8">
       <div class="flex flex-col items-center font-rale">
         <h2 class="sm:text-7xl text-5xl font-semibold text-mint">80%</h2>
-        <h3 class="font-source text-graphite font-semibold text-lg">Throughput increase</h3>
+        <h3 class="font-source text-graphite font-semibold text-lg">
+          Throughput increase
+        </h3>
       </div>
       <div class="flex flex-col items-center font-rale">
         <h2 class="sm:text-7xl text-5xl font-semibold text-mint">2x</h2>
-        <h3 class="font-source text-graphite font-semibold text-lg">Fewer breaks</h3>
+        <h3 class="font-source text-graphite font-semibold text-lg">
+          Fewer breaks
+        </h3>
       </div>
       <div class="flex flex-col items-center font-rale">
         <h2 class="sm:text-7xl text-5xl font-semibold text-mint">30%</h2>
-        <h3 class="font-source text-graphite font-semibold text-lg">Supply chain savings</h3>
+        <h3 class="font-source text-graphite font-semibold text-lg">
+          Supply chain savings
+        </h3>
       </div>
     </div>
   </section>
 </div>
 
 <!-- SECTON THREE -->
-<div class="bg-white">
+<div class="bg-white transition-all">
   <section class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14 my-8">
     <h2 class="text-4xl text-graphite-dark font-bold font-rale mb-4">
       Our Services
     </h2>
     {#each services as service, i}
-      <ServiceBlock
-        title={service.title}
-        content={service.content}
-        lastServiceIndex={id}
-        image = {service.image}
-        {i}
-        on:message={onMessage}
-      />
+      <div>
+        <ServiceBlock
+          title={service.title}
+          content={service.content}
+          lastServiceIndex={id}
+          image={service.image}
+          {i}
+          on:message={onMessage}
+        />
+      </div>
     {/each}
   </section>
 </div>
 
-
-  <!-- SECTION FOUR -->
-  <div class="bg-graphite-50">
-    <section
-      class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14  py-10 sm:py-16"
-    >
-    <h2 class="text-4xl text-graphite-dark font-bold font-rale">About Us </h2>
-    <h2 class="text-2xl mt-4 text-graphite">Seasoned experts from industry-leading companies. <br> No BS. All hustle. </h2>
-    <h3 class=" max-w-2xl text-lg mt-4 text-graphite">We build lean operations for hardware businesses looking to get the most out of their assets. Our team goes deep from day one and skips all the jargon.</h3>
-
+<!-- SECTION FOUR -->
+<div class="bg-graphite-50">
+  <section
+    class="container flex flex-col mx-auto max-w-7xl px-6 md:px-14  py-10 sm:py-16"
+  >
+    <h2 class="text-4xl text-graphite-dark font-bold font-rale">About Us</h2>
+    <h2 class="text-2xl mt-4 text-graphite">
+      Seasoned experts from industry-leading companies. <br /> No BS. All hustle.
+    </h2>
+    <h3 class=" max-w-2xl text-lg mt-4 text-graphite">
+      We build lean operations for hardware businesses looking to get the most
+      out of their assets. Our team goes deep from day one and skips all the
+      jargon.
+    </h3>
 
     <div class="flex flex-wrap justify-between mt-4">
       {#each team as member}
-      <PersonCard
-      name={member.name}
-      description={member.description}
-      profileImage={member.profileImage}
-      socialLinks={member.socialLinks}
-      />
+        <PersonCard
+          name={member.name}
+          description={member.description}
+          profileImage={member.profileImage}
+          socialLinks={member.socialLinks}
+        />
       {/each}
     </div>
-    </section>
-  </div>
+  </section>
+</div>
 
 <!-- ____SECTION FIVE____ -->
 <div class="bg-white">
@@ -167,10 +171,9 @@
     </h2>
     <img class="mt-8 w-full sm:w-10/12 mx-auto" src="/team-logos.png" alt="" />
     <div class="block w-full h-0.5 bg-gray-400 mt-4" />
-    <div class='my-12'>
-      <TestimonialBlock/>
+    <div class="my-12">
+      <TestimonialBlock />
     </div>
-
   </section>
 </div>
 <Footer />

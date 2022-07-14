@@ -27,15 +27,15 @@
         <a class="pr-1" href={socialLinks.email}>
           <img width="24" class="opacity-60" src="/icons/email.png" alt="" />
         </a>
-        <a class="px-1" href={socialLinks.phone}>
+        <!-- <a class="px-1" href={socialLinks.phone}>
           <img width="24" class="opacity-60" src="/icons/phone.png" alt="" />
-        </a>
+        </a> -->
         <a class="px-1" href={socialLinks.linkedin}>
           <img width="24" class="opacity-60" src="/icons/linkedin.png" alt="" />
         </a>
-        <a class="px-1" href={socialLinks.twitter}>
+        <!-- <a class="px-1" href={socialLinks.twitter}>
           <img width="24" class="opacity-60" src="/icons/twitter.png" alt="" />
-        </a>
+        </a> -->
       </div>
     </div>
     <p class="text-graphite text-md">{description}</p>

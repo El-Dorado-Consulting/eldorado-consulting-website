@@ -58,7 +58,7 @@
             <a href="/blog" class="px-4 py-transition-colors">Services</a>
           </li>
           <li>
-            <a href="/Contact" class="px-4 py-transition-colors">Contact</a>
+            <a href="/contact" class="px-4 py-transition-colors">Contact</a>
           </li>
         </ul>
       </div>
@@ -78,7 +78,7 @@
           <a class="inline-block w-full h-full" href="/services">Services</a>
         </li>
         <li class="py-4 px-4 text-md border-b hover:bg-gray-50">
-          <a class="inline-block w-full h-full" href="/blog">Contact</a>
+          <a class="inline-block w-full h-full" href="/contact">Contact</a>
         </li>
       </ul>
     </div>

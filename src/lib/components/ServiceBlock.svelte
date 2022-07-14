@@ -1,6 +1,5 @@
 <script>
   import { slide, fade } from "svelte/transition";
-  import { flip } from 'svelte/animate';
 
   import { createEventDispatcher } from "svelte";
   export let title = "";
@@ -22,15 +21,13 @@
   }
 </script>
 
-<div class="w-full mt-6 flex sm:flex-row flex-col items-center" transition:fade >
+<div class="w-full mt-6 flex sm:flex-row flex-col items-center">
   {#if !hidden}
-    <div class="hidden sm:block h-72 border-l-4 border-mustard " />
+    <div class="hidden sm:block h-60 py-8 border-l-4 border-mustard" />
   {/if}
 
   <div class="w-full max-w-lg ml-4">
-    <button on:click={toggleHide} class="font-rale text-2xl text-graphite-dark"
-      >{title}</button
-    >
+    <button on:click={toggleHide} class="font-rale text-2xl text-graphite-dark">{title}</button>
     {#if !hidden}
       <p  in:slide out:fade={{duration:400}} class="mt-4 font-source text-graphite"> {content}</p>
     {/if}
@@ -38,7 +35,7 @@
 
   <div class="w-full flex justify-center">
     {#if !hidden}
-      <img class="sm:max-w-md max-w-sm" src={image} transition:fade alt="" />
+      <img class="sm:max-w-sm max-w-sm" src={image} transition:fade alt="" />
     {/if}
   </div>
 </div>

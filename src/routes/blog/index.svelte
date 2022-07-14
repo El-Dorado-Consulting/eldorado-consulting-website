@@ -20,7 +20,7 @@
 <section style="min-height:78vh" class="container flex flex-col mx-auto max-w-6xl py-12 px-4 font-source text-center  bg-graphite-50">
 	<h1 class="text-4xl font-lexend font-semibold">Our Blog</h1>
 	<h2 class="text-x mt-6">
-		Tips tricks and insights from time spent on the floor
+		Tips, tricks and insights from time spent on the floor
 	</h2>
 	<div class="flex flex-wrap justify-evenly">
 		{#each posts as post, i}

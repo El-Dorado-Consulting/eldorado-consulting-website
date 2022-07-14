@@ -24,7 +24,6 @@
 	</div>
 	<p class="mt-6 text-lg">{moment(date).format('MMMM d, YYYY')}</p>
 	<h1 class="font-rale font-semibold text-3xl mt-2">{title}</h1>
-	<!-- https://tailwindcss.com/docs/typography-plugin for more markdown utility css -->
 	<div class="mt-4 prose prose-gray">
 		{@html html}
 	</div>

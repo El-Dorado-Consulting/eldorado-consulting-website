@@ -85,23 +85,23 @@
         <p class="ml-3">Improved quality control</p>
       </div>
     </div>
-    <div class="block w-full h-0.5 bg-gray-400 mt-12" />
+    <div class="block w-full h-0.5 bg-gray-400 mt-12 mx-1" />
     <div class="flex justify-between sm:justify-evenly mt-8">
       <div class="flex flex-col items-center font-rale">
         <h2 class="sm:text-7xl text-5xl font-semibold text-mint">80%</h2>
-        <h3 class="font-source text-graphite font-semibold sm:text-lg">
+        <h3 class="font-source text-graphite font-semibold sm:text-lg text-center">
           Throughput increase
         </h3>
       </div>
-      <div class="flex flex-col items-center font-rale">
+      <div class="flex flex-col items-center font-rale mx-1">
         <h2 class="sm:text-7xl text-5xl font-semibold text-mint">2x</h2>
-        <h3 class="font-source text-graphite font-semibold sm:text-lg">
+        <h3 class="font-source text-graphite font-semibold sm:text-lg text-center">
           Fewer breaks
         </h3>
       </div>
-      <div class="flex flex-col items-center font-rale">
+      <div class="flex flex-col items-center font-rale mx-1">
         <h2 class="sm:text-7xl text-5xl font-semibold text-mint">30%</h2>
-        <h3 class="font-source text-graphite font-semibold sm:text-lg">
+        <h3 class="font-source text-graphite font-semibold sm:text-lg text-center">
           Supply chain savings
         </h3>
       </div>
@@ -164,7 +164,7 @@
     class="
       container
       mx-auto
-      max-w-7xl mt-12 px-10 flex flex-col
+      max-w-7xl mt-12 px-4 sm:py-16 flex flex-col
     "
   >
     <h2 class="font-rale font-semibold text-3xl text-graphite text-center">

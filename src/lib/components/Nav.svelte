@@ -55,7 +55,7 @@
             <a href="/blog" class="px-4 py-transition-colors">Blog</a>
           </li>
           <li>
-            <a href="/blog" class="px-4 py-transition-colors">Services</a>
+            <a href="/#service" class="px-4 py-transition-colors">Services</a>
           </li>
           <li>
             <a href="/contact" class="px-4 py-transition-colors">Contact</a>

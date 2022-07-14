@@ -50,7 +50,8 @@
 </div>
 
 <!-- SECTION TWO -->
-<div class="bg-graphite-50">
+<div class="bg-graphite-50" >
+  <a id="service"></a>
   <section
     class="container flex flex-col mx-auto max-w-7xl px-4 md:px-14 py-10 sm:py-16"
   >

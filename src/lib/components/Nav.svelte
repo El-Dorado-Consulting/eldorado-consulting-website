@@ -75,7 +75,7 @@
           <a class="inline-block w-full h-full" href="/blog">Blog</a>
         </li>
         <li class="py-4 px-4 text-md border-b hover:bg-gray-50">
-          <a class="inline-block w-full h-full" href="/services">Services</a>
+          <a class="inline-block w-full h-full" href="/#service">Services</a>
         </li>
         <li class="py-4 px-4 text-md border-b hover:bg-gray-50">
           <a class="inline-block w-full h-full" href="/contact">Contact</a>

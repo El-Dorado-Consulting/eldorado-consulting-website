@@ -27,7 +27,7 @@
   {/if}
 
   <div class="w-full max-w-lg ml-4">
-    <button on:click={toggleHide} class="font-rale text-2xl text-graphite-dark">{title}</button>
+    <button on:click={toggleHide} class="font-rale text-2xl font-semibold text-graphite-dark hover:text-gray-800 transition-colors">{title}</button>
     {#if !hidden}
       <p  in:slide out:fade={{duration:400}} class="mt-4 font-source text-graphite"> {content}</p>
     {/if}

@@ -24,7 +24,7 @@
         {name}
       </h3>
       <div class="flex items-center ml-2 ">
-        <a class="pr-1" href={socialLinks.email}>
+        <a class="pr-1" href= "mailto: {socialLinks.email}">
           <img width="24" class="opacity-60" src="/icons/email.png" alt="" />
         </a>
         <!-- <a class="px-1" href={socialLinks.phone}>
